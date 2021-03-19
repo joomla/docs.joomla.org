@@ -1,0 +1,11 @@
+User-agent: *
+Disallow: /index.php?*
+Disallow: /*index.php?*
+Disallow: /*.php$
+Disallow: /404.shtml
+Disallow: /Special:*
+Disallow: /User_talk:*
+Disallow: /extensions/*
+Disallow: /Template:*
+Allow: /extensions/Translate/resources/*
+Allow: /extensions/UniversalLanguageSelector/data/*
