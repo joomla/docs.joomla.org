@@ -17,7 +17,7 @@ steps:
       - build
     environment:
       REMOTE_PRIVATE_KEY:
-        from_secret: SSH_PRIVATE_KEY
+        from_secret: REMOTE_PRIVATE_KEY
       DEPLOY_HOST:
         from_secret: DEPLOY_HOST
       SFTP_USER:
@@ -47,6 +47,6 @@ steps:
 
 ---
 kind: signature
-hmac: 2e1bbee90e9defdeaa980800a3434bbb011d4804066cc7fdd926ecdcab76f0cb
+hmac: 15fe51b0617fd75c0055ff49142a761a1ae6b44a1614d578441df36c96d8c29f
 
 ...
