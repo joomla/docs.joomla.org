@@ -1,0 +1,53 @@
+---
+kind: pipeline
+name: default
+
+clone:
+
+steps:
+  - name: build
+    image: node:18-bullseye-slim
+    commands:
+      - npm install
+      - npx docusaurus gen-api-docs all
+      - npm run build
+
+  - name: deployment
+    image: joomlaprojects/docker-images:packager
+    depends_on:
+      - build
+    environment:
+      REMOTE_PRIVATE_KEY:
+        from_secret: REMOTE_PRIVATE_KEY
+      DEPLOY_HOST:
+        from_secret: DEPLOY_HOST
+      SFTP_USER:
+        from_secret: SFTP_USER
+      GITHUB_TOKEN:
+        from_secret: GITHUB_TOKEN
+    commands:
+      - mkdir -p ~/.ssh
+      - eval $(ssh-agent -s)
+      - echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config
+      - echo "$REMOTE_PRIVATE_KEY" > ~/.ssh/id_rsa
+      - chmod 600 ~/.ssh/id_rsa
+      - ssh-add
+      - rclone config create server sftp host $DEPLOY_HOST user $SFTP_USER port 22
+      - if [ -z "$${DRONE_PULL_REQUEST}" ]; then export TARGET=public_html; else export TARGET=wildcard.docs.joomlacode.org/sites/pr-$${DRONE_PULL_REQUEST}; fi
+      - rclone -v sync build server:$TARGET
+      - chmod +x test.sh
+      - if [ ! -z "$${DRONE_PULL_REQUEST}" ]; then /bin/add_github_status.sh "Preview" "Generated preview for this pull request" "http://pr-$${DRONE_PULL_REQUEST}.docs.joomlacode.org" ; fi;
+    when:
+      branch:
+        main
+      status:
+        - success
+      event:
+        - push
+        - pull_request
+
+---
+kind: signature
+hmac: 3d1303abd175ffda3aec141c6ea71d541f50f3c3e0752a68330fde5560386a58
+
+...
