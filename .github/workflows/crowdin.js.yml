@@ -21,16 +21,16 @@ jobs:
         cache: 'npm'
 
     - name: Install dependencies
-    - run: npm install
+      run: npm install
 
     - name: Extract sources
-    - run: npm run write-translations
+      run: npm run write-translations
     
     - name: Upload the sources
       env: 
         token: ${{ secrets.CROWDIN_JOOMLA_TOKEN }}
         projectId: ${{ secrets.CROWDIN_PROJECT_ID }}
-    - run: npm run crowdin upload
+      run: npm run crowdin upload
 
     - name: Download new translations
-    - run: npm run crowdin download
+      run: npm run crowdin download
