@@ -3,8 +3,8 @@
 
 # Crowdin credentials
 #
-project_id: 14
-api_token_env: CROWDIN_JOOMLA_TOKEN
+project_id: 114
+api_token_env: CROWDIN_PERSONAL_TOKEN
 base_path: "."
 base_url: "https://joomla.crowdin.com"
 

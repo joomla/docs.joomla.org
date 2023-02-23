@@ -27,12 +27,10 @@ jobs:
 
       - name: Upload the sources
         env:
-          CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID }}
-          CROWDIN_JOOMLA_TOKEN: ${{ secrets.CROWDIN_JOOMLA_TOKEN }}
+          CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_PERSONAL_TOKEN }}
         run: npm run crowdin upload
 
       - name: Download new translations
         env:
-          CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID }}
-          CROWDIN_JOOMLA_TOKEN: ${{ secrets.CROWDIN_JOOMLA_TOKEN }}
+          CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_PERSONAL_TOKEN }}
         run: npm run crowdin download
