@@ -26,13 +26,13 @@ jobs:
         run: npm run write-translations
 
       - name: Upload the sources
-        run: npm run crowdin upload
         env:
           CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID }}
           CROWDIN_JOOMLA_TOKEN: ${{ secrets.CROWDIN_JOOMLA_TOKEN }}
+          run: npm run crowdin upload
 
       - name: Download new translations
-        run: npm run crowdin download
         env:
           CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID }}
           CROWDIN_JOOMLA_TOKEN: ${{ secrets.CROWDIN_JOOMLA_TOKEN }}
+          run: npm run crowdin download
