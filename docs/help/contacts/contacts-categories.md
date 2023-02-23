@@ -1,0 +1,288 @@
+<!-- Filename: Help4.x:Contacts:_Categories / Display title: Contacts: Categories -->
+
+## Description
+
+Contact Categories allow you to organize contacts in your web site.
+Contact Categories are separate from other types of Categories, such as
+those for Articles, Banners, News Feeds, and so on.
+
+## How to Access
+
+- Select **Components **→** Contacts **→** Categories** from the
+  Administrator menu.
+
+## Screenshot
+
+<img
+src="https://docs.joomla.org/images/7/72/Help-4x-Components-Contact-Categories-screen-en.png"
+decoding="async" data-file-width="800" data-file-height="338"
+width="800" height="338"
+alt="Help-4x-Components-Contact-Categories-screen-en.png" />
+
+## Column Headers
+
+Click on the column heading to sort the list by that column's value.
+
+- **Checkbox**. Check this box to select one or more items. To select
+  all items, check the box in the column heading. After one or more
+  boxes are checked, click a toolbar button to take an action on the
+  selected item or items. Many toolbar actions, such as Publish and
+  Unpublish, can work with multiple items. Others, such as Edit, only
+  work on one item at a time. If multiple items are checked and you
+  press Edit, the first item will be opened for editing.
+
+<!-- -->
+
+- **Ordering.** You can change the order of an item within a list as
+  follows:
+  - If the list Filter Options include a Position filter select the
+    desired Position. This will limit the list to items that are
+    assigned to that Position.
+  - Select the Ordering icon <img
+    src="https://docs.joomla.org/images/e/ee/Help30-Ordering-colheader-icon.png"
+    decoding="async" data-file-width="12" data-file-height="23" width="12"
+    height="23" alt="Help30-Ordering-colheader-icon.png" /> in the Table
+    heading to make it the active ordering item. The ordering icons in
+    each row will change from light grey to dark grey and the pointer
+    will change to a drag arrow on hover.
+  - Select one of the Ordering icons <img
+    src="https://docs.joomla.org/images/8/87/Help30-Ordering-colheader-grab-bar-icon.png"
+    decoding="async" data-file-width="10" data-file-height="21" width="10"
+    height="21" alt="Help30-Ordering-colheader-grab-bar-icon.png" /> and
+    drag it up or down to change the position of that row in the list.
+    The items will display in the new order within the Position.
+
+<!-- -->
+
+- **Status**. The published status of the item.
+
+<!-- -->
+
+- **Title**. The name of the item. For a Menu Item, the Title will
+  display in the Menu. For an Article or Category, the Title may
+  optionally be displayed on the web page. This entry is required. You
+  can open the item for editing by clicking on the Title.
+
+<!-- -->
+
+- **Published:**
+  <img src="https://docs.joomla.org/images/1/10/Help-4x-icon-tick.png"
+  decoding="async" data-file-width="27" data-file-height="20" width="27"
+  height="20" alt="Help-4x-icon-tick.png" /> The number of published
+  items. Click the numbered button to show a list of just those items.
+
+<!-- -->
+
+- **Unpublished:**
+  <img src="https://docs.joomla.org/images/c/c9/Help-4x-icon-cross.png"
+  decoding="async" data-file-width="21" data-file-height="20" width="21"
+  height="20" alt="Help-4x-icon-cross.png" /> The number of unpublished
+  items. Click the numbered button to show a list of just those items.
+
+<!-- -->
+
+- **Archived:** Whether and how many items has been archived. You see
+  the Archived items by clicking on the icon in this column.
+
+<!-- -->
+
+- **Trashed**
+  <img src="https://docs.joomla.org/images/5/59/Help-4x-icon-bin.png"
+  decoding="async" data-file-width="18" data-file-height="20" width="18"
+  height="20" alt="Help-4x-icon-bin.png" /> The number of trashed items.
+  Click the numbered button to show a list of just those items.
+
+<!-- -->
+
+- **Access**. The [viewing Access
+  Level](https://docs.joomla.org/Help4.x:Users:_Viewing_Access_Levels/en "Special:MyLanguage/Help4.x:Users: Viewing Access Levels/en")
+  for this item.
+
+<!-- -->
+
+- **Association:** Shows which menu item this item is associated.
+
+<!-- -->
+
+- **Language**. Item language.
+
+<!-- -->
+
+- **ID**. This is a unique identification number for this item assigned
+  automatically by Joomla. It is used to identify the item internally,
+  and you cannot change this number. When creating a new item, this
+  field displays "0" until you save the new entry, at which point a new
+  ID is assigned to it.
+
+## List Filters
+
+**Search bar**. Near the top of the page you will see the search bar
+shown in the [Screenshot](#screenshot) above.
+
+- **Search by Text**. Enter part of the search term and click the Search
+  icon. *Hover* to see a *Tooltip* indicating which fields will be
+  searched.To 'Search by ID' enter "id:x", where "x" is the ID number
+  (for example, "id:19").
+- **Filter Options**. Click to display the additional filters.
+- **Clear**. Click to clear the Filter field and restore the list to its
+  unfiltered state.
+- **Ordering**. Shows the current list ordering field. 2 ways to change
+  the order:
+  - Select from the dropdown list. Ordering may be in ascending or
+    descending order.
+  - Click a column heading. The column heading toggles between ascending
+    and descending order.
+- **Number to Display**. Shows the number of items in a list. Select
+  from the dropdown list to change the number displayed.The default for
+  a site is '20' but this may be changed in the [Global
+  Configuration](https://docs.joomla.org/Help4.x:Site_Global_Configuration/en#defaultlistlimit "Help4.x:Site Global Configuration/en").
+
+<!-- -->
+
+- **Select Status**. Select from Trashed / Unpublished / Published /
+  Archived / All.
+
+<!-- -->
+
+- **Select Access**. Select from the list of available viewing access
+  levels.
+
+<!-- -->
+
+- **Select Language**. Select from the list of available languages, if
+  the site manages more than 1 language.
+
+<!-- -->
+
+- **Select Tag**. Select from the list of available tags.
+
+<!-- -->
+
+- **Select Max Levels**. Select from the list of available levels.
+
+**Page Controls**. When the number of items is more than one page, you
+will see a page control bar near the bottom of the page shown in the
+[Screenshot](#screenshot) above. The current page number being viewed
+has a dark colour background.
+
+- **Start**. Click to go to the first page.
+- **Prev**. Click to go to the previous page.
+- **Page numbers**. Click to go to the desired page.
+- **Next**. Click to go to the next page.
+- **End**. Click to go to the last page.
+
+## Batch Processing
+
+The Batch Process allows a change in settings for a group of selected
+items marked with a check-mark in the corresponding check-mark boxes. To
+use: click on the link found below the table of items being viewed to
+activate the drop down field area. Using the 'Batch' Toolbar button will
+open a pop up window as shown below.
+
+<img
+src="https://docs.joomla.org/images/e/ef/Help4x-colheader-batch-process-categories-en.png"
+decoding="async" data-file-width="600" data-file-height="385"
+width="600" height="385"
+alt="Help4x-colheader-batch-process-categories-en.png" />
+
+You can change one value or all four values at one time.
+
+***Note** - if you copy items to a new category, changes you have
+selected from access level and language will be applied to the copies,
+not the original.*
+
+**How to Batch Process** a group of items:
+
+1.  Select one or more items on the list by checking the desired
+    category check boxes.
+2.  Click the 'Batch' Toolbar button.
+3.  Set one or more of the following values:
+    - To change the **Access Levels**, select the desired new access
+      level from the Set Access Level list box.
+    - To change the **Language**, select the desired language from the
+      Set Language list box.
+    - To change the **Category**, select a category. To leave the
+      category unchanged, use the default value of "Select".
+
+    1.  To copy the items to a different category, select the desired
+        category from the category list box and check the Copy option.
+        In this case, the original items are unchanged and the copies
+        are assigned to the new category and, if selected, the new
+        access level and language.
+    2.  To move the items to a different category, select the desired
+        category from the category list box and check the Move option.
+        In this case, the original items will be moved to a new category
+        and, if selected, be assigned the new access level and language.
+4.  When all of the settings are entered, click on Process to perform
+    the changes. A message **"Batch process completed successfully."**
+    will show.
+
+Note that nothing will happen if you (a) don't have any items selected
+or (b) have not selected an access level, language, or category.
+
+If you wish to clear your entered selections, click on the Cancel
+button. This will return all of the Batch controls to their default
+values. Note that this does *not* uncheck the check boxes for the items.
+
+## Toolbar
+
+At the top of the page you will see the toolbar shown in the
+[Screenshot](#Screenshot) above. The functions are:
+
+- **New**. Opens the editing screen to create a new category.
+
+<!-- -->
+
+- **Actions:** Reveals a list of actions for selected Items. Check one
+  or more Item checkboxes to activate the list.
+
+<!-- -->
+
+- - **Publish**. Makes the selected category available to visitors to
+    your website.
+
+- - **Unpublish.** Makes the selected category unavailable to visitors
+    to your website.
+
+- - **Archive**. Changes the status of the selected category to indicate
+    that they are archived. Archived category can be moved back to the
+    published or unpublished state by selecting 'Archived' in the
+    'Select Status' filter and changing the status of the category.
+
+- - **Check-In**. Checks-in the selected category. Works with one or
+    multiple category selected.
+
+- - **Trash**. Changes the status of the selected category to indicate
+    that they are trashed.Trashed category can still be recovered by
+    selecting 'Trashed' in the 'Select Status' filter and changing the
+    status of the articles to Published or Unpublished as preferred.To
+    permanently delete trashed category, select 'Trashed' in the 'Select
+    Status' filter, select the category to be permanently deleted, then
+    click the 'Empty Trash' toolbar icon.
+
+- - **Batch**. Batch processes the selected category. Works with one or
+    multiple items selected.
+
+<!-- -->
+
+- **Rebuild.** Reconstructs and refreshes the category table. Normally,
+  you do *not* need to rebuild this table. This function is provided in
+  case the data in the table becomes corrupted.
+
+<!-- -->
+
+- **Options.** Opens the Options window where settings such as default
+  parameters can be edited. See [Contact Manager
+  Options](https://docs.joomla.org/Help4.x:Contacts:_Options/en "Help4.x:Contacts: Options/en")
+  for more information.
+- **Help**. Opens this help screen.
+
+## Related Information
+
+- To work with Contacts: [Contact Manager:
+  Contacts](https://docs.joomla.org/Help4.x:Contacts/en "Help4.x:Contacts/en")
+- To add new Contact Categories: <a
+  href="https://docs.joomla.org/index.php?title=Help4.x:Contacts:_New_or_Edit_Category/en&amp;action=edit&amp;redlink=1"
+  class="new"
+  title="Help4.x:Contacts: New or Edit Category/en (page does not exist)">Category
+  Manager - New/Edit</a>
