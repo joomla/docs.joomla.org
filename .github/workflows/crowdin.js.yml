@@ -28,8 +28,8 @@ jobs:
     
     - name: Upload the sources
       env: 
-        token: ${{ secrets.CROWDIN_JOOMLA_TOKEN }}
-        projectId: ${{ secrets.CROWDIN_PROJECT_ID }}
+          CROWDIN_JOOMLA_TOKEN: ${{ secrets.CROWDIN_JOOMLA_TOKEN }}
+          CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID }}
       run: npm run crowdin upload
 
     - name: Download new translations
