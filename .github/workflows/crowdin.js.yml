@@ -1,0 +1,36 @@
+name: Crowdin workflow
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  sync-translations:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Use Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '18.x'
+        cache: 'npm'
+
+    - name: Install dependencies
+      run: npm install
+
+    - name: Extract sources
+      run: npm run write-translations
+    
+    - name: Upload the sources
+      env: 
+          CROWDIN_JOOMLA_TOKEN: ${{ secrets.CROWDIN_JOOMLA_TOKEN }}
+          CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID }}
+      run: npm run crowdin upload
+
+    - name: Download new translations
+      run: npm run crowdin download
