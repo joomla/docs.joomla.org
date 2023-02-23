@@ -1,0 +1,42 @@
+# https://developer.crowdin.com/configuration-file/
+# https://docusaurus.io/docs/i18n/crowdin
+
+# Crowdin credentials
+#
+'api_token': CROWDIN_PROJECT_ID
+'project_id': CROWDIN_JOOMLA_TOKEN
+'base_path': '.'
+'base_url': 'https://joomla.crowdin.com'
+
+#
+# Choose file structure in Crowdin
+#
+'preserve_hierarchy': true
+
+#
+# Files configuration
+#
+files: [
+    {
+      #
+      # Source JSON translation files filter when: npm run crowdin upload
+      #
+      'source': '/i18n/en/**/*',
+
+      #
+      # Where translations will be placed when: npm run crowdin download
+      #
+      'translation': '/i18n/%two_letters_code%/**/%original_file_name%',
+    },
+    {
+      #
+      # Source Docs Markdown files filter when: npm run crowdin upload
+      #
+      'source': '/docs/**/*',
+
+      #
+      # Where translations will be placed when: npm run crowdin download
+      #
+      'translation': '/i18n/%two_letters_code%/docusaurus-plugin-content-docs/current/**/%original_file_name%',
+    },
+  ]
