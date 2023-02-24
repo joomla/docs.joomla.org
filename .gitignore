@@ -1,6 +1,5 @@
 # Project related files
 /i18n
-crowdin.yml
 
 # IDE & System Related Files
 .buildpath

@@ -3,7 +3,7 @@
 
 # Crowdin credentials
 #
-'project_id': '112'
+'project_id': '114'
 'api_token': ''
 'base_path': '.'
 'base_url': 'https://joomla.crowdin.com'

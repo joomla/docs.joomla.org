@@ -42,7 +42,7 @@ const config = {
           editUrl: ({ locale }) => {
             // Link to Crowdin for no english docs
             if (locale !== DefaultLocale) {
-              return `https://crowdin.com/project/docusaurus-v2/${locale}`;
+              return `https://joomla.crowdin.com/docsjoomlaorg/${locale}`;
             }
             // Link to GitHub for English docs
             return `https://github.com/joomla/docs.joomla.org/tree/main/`;
