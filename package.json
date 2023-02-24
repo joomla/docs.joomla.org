@@ -1,6 +1,6 @@
 {
-  "name": "manual",
-  "version": "0.0.0",
+  "name": "joomla-documentation",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "docusaurus": "docusaurus",

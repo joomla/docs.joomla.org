@@ -3,7 +3,7 @@
 
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
-const DefaultLocale = 'en';
+const defaultLocale = 'en';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -37,16 +37,19 @@ const config = {
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
+        debug: true, // force debug plugin usage
         docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
-          editUrl: ({ locale }) => {
+          path: 'docs',
+          sidebarPath: 'sidebarsDocumentation.js',
+          editUrl: ({ locale, docPath }) => {
             // Link to Crowdin for no english docs
-            if (locale !== DefaultLocale) {
+            if (locale !== defaultLocale) {
               return `https://joomla.crowdin.com/joomla-documentation/${locale}`;
             }
             // Link to GitHub for English docs
-            return `https://github.com/joomla/docs.joomla.org/tree/main/`;
+            return `https://github.com/joomla/docs.joomla.org/edit/main/${docPath}`;
           },
+          showLastUpdateTime: true,
           docLayoutComponent: '@theme/DocPage',
           /*lastVersion: '4.3',*/
           versions: {
@@ -72,6 +75,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
+        hideOnScroll: true,
         title: 'Joomla!',
         logo: {
           alt: 'Joomla Logo',
@@ -83,6 +87,12 @@ const config = {
             docId: 'index',
             position: 'left',
             label: 'Documentation',
+          },
+          {
+            to: '/help',
+            label: 'Help Pages',
+            position: 'left',
+            activeBaseRegex: `/help/`,
           },
           {
             type: 'localeDropdown',
@@ -143,8 +153,10 @@ const config = {
           },
           {
             href: 'https://github.com/joomla/docs.joomla.org',
-            label: 'GitHub',
+            label: 'GitHub repository',
             position: 'right',
+            className: 'header-github-link',
+            'aria-label': 'GitHub repository',
           },
         ],
       },
@@ -209,8 +221,26 @@ const config = {
         additionalLanguages: ['php', 'ini'],
       },
     }),
-  /**
+
   plugins: [
+    [
+      'content-docs',
+      /** @type {import('@docusaurus/plugin-content-docs').Options} */
+      ({
+        id: 'help',
+        path: 'help',
+        routeBasePath: 'help',
+        editUrl: ({ locale, docPath }) => {
+          if (locale !== defaultLocale) {
+            return `https://joomla.crowdin.com/joomla-documentation/${locale}`;
+          }
+          return `https://github.com/joomla/docs.joomla.org/edit/main/${docPath}`;
+        },
+        sidebarPath: './sidebarsHelp.js',
+        showLastUpdateTime: true,
+      }),
+    ],
+    /**
     [
       // This plugin conflict with i18n https://github.com/cmfcmf/docusaurus-search-local/issues/129
       require.resolve('@cmfcmf/docusaurus-search-local'),
@@ -261,8 +291,8 @@ const config = {
         },
       },
     ],
+    */
   ],
-  */
 };
 
 module.exports = config;
