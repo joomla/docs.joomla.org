@@ -40,7 +40,7 @@ const config = {
         debug: true, // force debug plugin usage
         docs: {
           path: 'docs',
-          sidebarPath: 'sidebarsDocumentation.js',
+          sidebarPath: 'sidebars.js',
           editUrl: ({ locale, docPath }) => {
             // Link to Crowdin for no english docs
             if (locale !== defaultLocale) {
@@ -49,19 +49,15 @@ const config = {
             // Link to GitHub for English docs
             return `https://github.com/joomla/docs.joomla.org/edit/main/${docPath}`;
           },
-          showLastUpdateTime: true,
-          docLayoutComponent: '@theme/DocPage',
-          /*lastVersion: '4.3',*/
+          lastVersion: '4.x',
           versions: {
             current: {
-              label: 'v4.x (upcoming)',
-              banner: 'unreleased',
+              label: '5.x',
             },
-            /*'4.3': {
-              label: 'v4.3.x (latest)',
-            }*/
           },
-          /*onlyIncludeVersions: ['current', '4.3'], */
+          showLastUpdateAuthor: true,
+          showLastUpdateTime: true,
+          docLayoutComponent: '@theme/DocPage',
         },
         blog: false,
         theme: {
@@ -83,17 +79,30 @@ const config = {
         },
         items: [
           {
-            type: 'doc',
-            docId: 'index',
+            type: 'dropdown',
+            label: 'User Documentation',
             position: 'left',
-            label: 'Documentation',
+            items: [
+              {
+                type: 'doc',
+                docId: 'index',
+                label: '4.x',
+              },
+            ],
           },
           {
-            to: '/help',
+            type: 'dropdown',
             label: 'Help Pages',
             position: 'left',
-            activeBaseRegex: `/help/`,
+            items: [
+              {
+                to: '/help',
+                label: '4.x',
+                activeBaseRegex: `/help`,
+              },
+            ],
           },
+
           {
             type: 'localeDropdown',
             position: 'left',
@@ -112,44 +121,6 @@ const config = {
             href: 'https://framework.joomla.org',
             label: 'Framework',
             position: 'right',
-          },
-          {
-            type: 'docsVersionDropdown',
-            position: 'right',
-            dropdownItemsBefore: [
-              {
-                type: 'html',
-                className: 'dropdown-current-versions',
-                value: '<b>Current releases</b>',
-              },
-            ],
-            dropdownItemsAfter: [
-              {
-                type: 'html',
-                value: '<hr class="dropdown-separator">',
-              },
-              {
-                type: 'html',
-                className: 'dropdown-archived-versions',
-                value: '<b>Archived versions</b>',
-              },
-              {
-                href: 'https://docs.joomla.org/Category:Joomla!_3.0',
-                label: '3.x',
-              },
-              {
-                href: 'https://docs.joomla.org/Category:Joomla!_3.0',
-                label: '2.5.x',
-              },
-              {
-                type: 'html',
-                value: '<hr class="dropdown-separator">',
-              },
-              {
-                to: '/versions',
-                label: 'All versions',
-              },
-            ],
           },
           {
             href: 'https://github.com/joomla/docs.joomla.org',
@@ -235,6 +206,12 @@ const config = {
             return `https://joomla.crowdin.com/joomla-documentation/${locale}`;
           }
           return `https://github.com/joomla/docs.joomla.org/edit/main/${docPath}`;
+        },
+        lastVersion: '4.x',
+        versions: {
+          current: {
+            label: '5.x',
+          },
         },
         sidebarPath: './sidebarsHelp.js',
         showLastUpdateTime: true,
