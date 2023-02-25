@@ -1,6 +1,6 @@
 <!-- Filename: Help4.x:Admin_Modules:_Action_Logs_-_Latest / Display title: Admin Modules: Action Logs - Latest -->
 
-## Description
+## Descriptio
 
 The **Action Logs - Latest** module type shows a list of the most recent
 actions on the Administrator **Home Dashboard**.
@@ -77,16 +77,16 @@ decoding="async" data-file-width="600" data-file-height="404"
 width="600" height="404"
 alt="Help-4x-modules-manager-admin-module-latestactions-permissions-en.png" />
 
-- **Delete:** (*Inherited*/*Allowed*/*Denied*). Allow or deny Delete for
+- **Delete:** (_Inherited_/_Allowed_/_Denied_). Allow or deny Delete for
   users in the group. Delete Allows users in the group to delete any
   content in this extension.
-- **Edit:** (*Inherited*/*Allowed*/*Denied*). Allow or deny Edit for
+- **Edit:** (_Inherited_/_Allowed_/_Denied_). Allow or deny Edit for
   users in the group. Edit Allows users in the group to edit any content
   in this extension.
-- **Edit State:** (*Inherited*/*Allowed*/*Denied*). Allow or deny Edit
+- **Edit State:** (_Inherited_/_Allowed_/_Denied_). Allow or deny Edit
   State for users in the group. Edit State Allows users in the group to
   change the state of any content in this extension.
-- **Frontend Editing:** (*Inherited*/*Allowed*/*Denied*). Allow or deny
+- **Frontend Editing:** (_Inherited_/_Allowed_/_Denied_). Allow or deny
   Edit from the frontend of the site for users in the group.
 
 ## Toolbar
@@ -118,4 +118,4 @@ At the top of the page you will see the toolbar shown in the
 ## Related Information
 
 - [Joomla 3 Tutorial: User Action
-  Logs](https://docs.joomla.org/J3.x:User_Action_Logs/en "J3.x:User Action Logs/en")
+  Logs](https://docs.joomla.org/J3.x:User_Action_Logs/en 'J3.x:User Action Logs/en')

@@ -5,8 +5,8 @@
 #
 project_id: 114
 api_token_env: CROWDIN_PERSONAL_TOKEN
-base_path: "."
-base_url: "https://joomla.crowdin.com"
+base_path: '.'
+base_url: 'https://joomla.crowdin.com'
 
 #
 # Choose file structure in Crowdin
@@ -16,27 +16,54 @@ base_url: "https://joomla.crowdin.com"
 #
 # Files configuration
 #
-files: [
-    {
-      #
-      # Source JSON translation files filter when: npm run crowdin upload
-      #
-      'source': '/i18n/en/**/*',
+files:
+  #
+  # Source JSON translation files filter when: npm run crowdin upload
+  #
+  - 'source': '/i18n/en/**/*'
+
+    #
+    # Where translations will be placed when: npm run crowdin download
+    #
+    'translation': '/i18n/%two_letters_code%/**/%original_file_name%'
+
+    #
+    # Source Docs Markdown files filter when: npm run crowdin upload
+    #
+  - 'source': '/docs/**/*'
+
+    #
+    # Where translations will be placed when: npm run crowdin download
+    #
+    'translation': '/i18n/%two_letters_code%/docusaurus-plugin-content-docs/current/**/%original_file_name%'
+
+    #
+    # Source Docs Markdown files filter when: npm run crowdin upload
+    #
+  - 'source': '/help/**/*'
+
+    #
+    # Where translations will be placed when: npm run crowdin download
+    #
+    'translation': '/i18n/%two_letters_code%/docusaurus-plugin-content-docs-help/current/**/%original_file_name%'
+
+    #
+    # Source Docs Markdown files filter when: npm run crowdin upload
+    #
+  - 'source': '/versioned_docs/**/*'
+
+    #
+    # Where translations will be placed when: npm run crowdin download
+    #
+    'translation':
+      '/i18n/%two_letters_code%/docusaurus-plugin-content-docs/current/**/%original_file_name%'
 
       #
-      # Where translations will be placed when: npm run crowdin download
-      #
-      'translation': '/i18n/%two_letters_code%/**/%original_file_name%',
-    },
-    {
-      #
-      # Source Docs Markdown files filter when: npm run crowdin upload
-      #
-      'source': '/docs/**/*',
+    # Source Docs Markdown files filter when: npm run crowdin upload
+    #
+  - 'source': '/help_versioned_docs/**/*'
 
-      #
-      # Where translations will be placed when: npm run crowdin download
-      #
-      'translation': '/i18n/%two_letters_code%/docusaurus-plugin-content-docs/current/**/%original_file_name%',
-    },
-  ]
+    #
+    # Where translations will be placed when: npm run crowdin download
+    #
+    'translation': '/i18n/%two_letters_code%/docusaurus-plugin-content-docs-help/current/**/%original_file_name%'

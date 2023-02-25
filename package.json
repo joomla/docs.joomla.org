@@ -1,6 +1,6 @@
 {
-  "name": "manual",
-  "version": "0.0.0",
+  "name": "joomla-documentation",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "docusaurus": "docusaurus",
@@ -12,6 +12,7 @@
     "serve": "docusaurus serve",
     "write-translations": "docusaurus write-translations",
     "crowdin": "crowdin",
+    "crowdin:sync": "docusaurus write-translations && crowdin upload && crowdin download",
     "write-heading-ids": "docusaurus write-heading-ids"
   },
   "dependencies": {
