@@ -9,7 +9,24 @@ steps:
     image: node:18-bullseye-slim
     commands:
       - npm install
+      - npm run write-translations
+      - npm run crowdin download
       - npm run build
+
+  - name: translations
+    image: node:18-bullseye-slim
+    environment:
+      CROWDIN_PERSONAL_TOKEN:
+        from_secret: CROWDIN_PERSONAL_TOKEN
+    commands:
+      - npm run crowdin download
+    when:
+      branch:
+        main
+      status:
+        - success
+      event:
+        - push
 
   - name: deployment
     image: joomlaprojects/docker-images:packager
@@ -46,6 +63,6 @@ steps:
 
 ---
 kind: signature
-hmac: f0a32f8a3122f068bdcd91ccec3f3482e3af3d446beaac97047b417a4daf0b41
+hmac: 9cb2ffc99ac1f94e736e13554edac8c986a0158fee3907db148926d787a6e093
 
 ...
