@@ -1,5 +1,8 @@
 # Project related files
 /i18n
+/user_documentation
+/help_pages_documentation
+/website_elements
 
 # IDE & System Related Files
 .buildpath

@@ -1,69 +1,42 @@
 # https://developer.crowdin.com/configuration-file/
 # https://docusaurus.io/docs/i18n/crowdin
 
-# Crowdin credentials
-#
+# CROWDIN CREDENTIALS
 project_id: 114
 api_token_env: CROWDIN_PERSONAL_TOKEN
 base_path: '.'
 base_url: 'https://joomla.crowdin.com'
 
-#
-# Choose file structure in Crowdin
-#
 'preserve_hierarchy': true
 
-#
-# Files configuration
-#
+# skip_untranslated_strings – Only translated strings will be included in the exported translation files.
+# skip_untranslated_files – Only translated files will be included in the exported translation archive.
+# export_only_approved – Only texts that are both translated and approved will be included in the exported translation files.
+
 files:
-  #
-  # Source JSON translation files filter when: npm run crowdin upload
-  #
-  - 'source': '/i18n/en/**/*'
+  # WEBSITE ELEMENTS
+  - 'source': '/website_elements/help_pages_documentation/**/*'
+    'translation': '/i18n/%two_letters_code%/docusaurus-plugin-content-docs-help/%original_file_name%'
+    'update_option': 'update_without_changes'
 
-    #
-    # Where translations will be placed when: npm run crowdin download
-    #
-    'translation': '/i18n/%two_letters_code%/**/%original_file_name%'
+  - 'source': '/website_elements/user_documentation/**/*'
+    'translation': '/i18n/%two_letters_code%/docusaurus-plugin-content-docs/%original_file_name%'
+    'update_option': 'update_without_changes'
 
-    #
-    # Source Docs Markdown files filter when: npm run crowdin upload
-    #
-  - 'source': '/docs/**/*'
+  - 'source': '/website_elements/theme/**/*'
+    'translation': '/i18n/%two_letters_code%/docusaurus-theme-classic/%original_file_name%'
+    'update_option': 'update_without_changes'
 
-    #
-    # Where translations will be placed when: npm run crowdin download
-    #
-    'translation': '/i18n/%two_letters_code%/docusaurus-plugin-content-docs/current/**/%original_file_name%'
+  - 'source': '/website_elements/code.json'
+    'translation': '/i18n/%two_letters_code%/%original_file_name%'
+    'update_option': 'update_without_changes'
 
-    #
-    # Source Docs Markdown files filter when: npm run crowdin upload
-    #
-  - 'source': '/help/**/*'
+  # USER DOCUMENTATION
+  - 'source': '/user_documentation/**/*'
+    'translation': '/i18n/%two_letters_code%/docusaurus-plugin-content-docs/**/%original_file_name%'
+    'update_option': 'update_without_changes'
 
-    #
-    # Where translations will be placed when: npm run crowdin download
-    #
-    'translation': '/i18n/%two_letters_code%/docusaurus-plugin-content-docs-help/current/**/%original_file_name%'
-
-    #
-    # Source Docs Markdown files filter when: npm run crowdin upload
-    #
-  - 'source': '/versioned_docs/**/*'
-
-    #
-    # Where translations will be placed when: npm run crowdin download
-    #
-    'translation':
-      '/i18n/%two_letters_code%/docusaurus-plugin-content-docs/current/**/%original_file_name%'
-
-      #
-    # Source Docs Markdown files filter when: npm run crowdin upload
-    #
-  - 'source': '/help_versioned_docs/**/*'
-
-    #
-    # Where translations will be placed when: npm run crowdin download
-    #
-    'translation': '/i18n/%two_letters_code%/docusaurus-plugin-content-docs-help/current/**/%original_file_name%'
+  # HELP PAGES DOCUMENTATION
+  - 'source': '/help_pages_documentation/**/*'
+    'translation': '/i18n/%two_letters_code%/docusaurus-plugin-content-docs-help/**/%original_file_name%'
+    'update_option': 'update_without_changes'
