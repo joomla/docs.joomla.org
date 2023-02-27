@@ -4,6 +4,8 @@
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const defaultLocale = 'en';
+const footerConfig = require('./footer.json');
+
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -131,66 +133,68 @@ const config = {
           },
         ],
       },
-      footer: {
-        style: 'dark',
-        copyright:
-          'The content is available under the <a href="https://docs.joomla.org/JEDL">Joomla! EDL</a> license, unless otherwise stated.',
-        links: [
-          {
-            title: 'Docs',
-            items: [
-              {
-                label: 'TBD',
-                to: 'docs',
-              },
-            ],
-          },
-          {
-            title: 'Community',
-            items: [
-              {
-                label: 'Community Portal',
-                href: 'https://community.joomla.org/',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/joomla',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                href: 'https://community.joomla.org/blogs.html',
-              },
-              {
-                label: 'Magazine',
-                href: 'https://magazine.joomla.org/',
-              },
-            ],
-          },
-          {
-            title: 'Legal',
-            items: [
-              {
-                label: 'Privacy',
-                href: 'https://www.joomla.org/privacy-policy.html',
-              },
-              {
-                label: 'Terms',
-                href: 'https://tm.joomla.org',
-              },
-            ],
-          },
-        ],
-      },
+      // footer: {
+      //   style: 'dark',
+      //   copyright:
+      //     'The content is available under the <a href="https://docs.joomla.org/JEDL">Joomla! EDL</a> license, unless otherwise stated.',
+      //   links: [
+      //     {
+      //       title: 'Docs',
+      //       items: [
+      //         {
+      //           label: 'TBD',
+      //           to: 'docs',
+      //         },
+      //       ],
+      //     },
+      //     {
+      //       title: 'Community',
+      //       items: [
+      //         {
+      //           label: 'Community Portal',
+      //           href: 'https://community.joomla.org/',
+      //         },
+      //         {
+      //           label: 'Twitter',
+      //           href: 'https://twitter.com/joomla',
+      //         },
+      //       ],
+      //     },
+      //     {
+      //       title: 'More',
+      //       items: [
+      //         {
+      //           label: 'Blog',
+      //           href: 'https://community.joomla.org/blogs.html',
+      //         },
+      //         {
+      //           label: 'Magazine',
+      //           href: 'https://magazine.joomla.org/',
+      //         },
+      //       ],
+      //     },
+      //     {
+      //       title: 'Legal',
+      //       items: [
+      //         {
+      //           label: 'Privacy',
+      //           href: 'https://www.joomla.org/privacy-policy.html',
+      //         },
+      //         {
+      //           label: 'Terms',
+      //           href: 'https://tm.joomla.org',
+      //         },
+      //       ],
+      //     },
+      //   ],
+      // },
+      footer: footerConfig,
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
         additionalLanguages: ['php', 'ini'],
       },
+     
     }),
 
   plugins: [
