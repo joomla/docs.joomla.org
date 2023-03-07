@@ -24,6 +24,7 @@ steps:
       CROWDIN_PERSONAL_TOKEN:
         from_secret: CROWDIN_PERSONAL_TOKEN
     commands:
+      - bash bin/crowdinup.sh
       - npm run crowdin download
     when:
       branch:
