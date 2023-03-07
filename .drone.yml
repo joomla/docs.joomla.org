@@ -24,12 +24,11 @@ steps:
       CROWDIN_PERSONAL_TOKEN:
         from_secret: CROWDIN_PERSONAL_TOKEN
     commands:
-      - bash bin/crowdinup.sh
+      - bash bin/crowdin_upload_prepare.sh
       - npm run crowdin upload
       - npm run crowdin download
     when:
-      branch:
-        main
+      branch: main
       status:
         - success
       event:
@@ -61,8 +60,7 @@ steps:
       - rclone -v sync build server:$TARGET
       - if [ ! -z "$${DRONE_PULL_REQUEST}" ]; then /bin/add_github_status.sh "Preview" "Generated preview for this pull request" "http://pr-$${DRONE_PULL_REQUEST}.docs.joomlacode.org" ; fi;
     when:
-      branch:
-        main
+      branch: main
       status:
         - success
       event:
@@ -72,5 +70,3 @@ steps:
 ---
 kind: signature
 hmac: 4a02d6a11a1f6cb32678f6576256b7259c4dc6d0174aa16373b5d45581ec327c
-
-...
