@@ -59,7 +59,7 @@ To edit a Tour:
 
 - **Language**. Select the language for this tour. Keep the default of 'All' if you are not using the **multi-language feature**.
 
-- **Component Selector**. The tour will only be visible in pages of the selected extensions. Use 'All' to show the tour in all pages of the administration.
+- **Component Selector**. The tour will only be visible in pages of the selected extensions. Use 'All' to show the tour in all pages of the administration. This is a mandatory field.
 
 - **Note**. This is for the administrator's use (for example, to document information about this tour).
 
