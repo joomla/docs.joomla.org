@@ -13,7 +13,7 @@ and users, GNU and Open Source offerings are often the best solution.
 The math is really quite compelling:
 
 |                                   |                      |          |
-|-----------------------------------|----------------------|---------:|
+| --------------------------------- | -------------------- | -------: |
 | **Applications**                  | **Industry Leader**  | **Cost** |
 | GNU/Linux                         | Yes                  |        0 |
 | Apache Web Server                 | Yes                  |        0 |
@@ -44,7 +44,7 @@ install Joomla for the first time.
 
 A good question, and sadly one that many did not ask in time. We proudly
 present the [Top 10 Stupidest Administrator
-Tricks](https://docs.joomla.org/Top_10_Stupidest_Administrator_Tricks "Top 10 Stupidest Administrator Tricks").
+Tricks](https://docs.joomla.org/Top_10_Stupidest_Administrator_Tricks 'Top 10 Stupidest Administrator Tricks').
 
 ### How Do I Choose a Quality Hosting Provider?
 
@@ -52,99 +52,99 @@ The following is a short list of security-related requirements.
 Depending on your specific needs, you may have many other security
 requirements such as shell access, cron access, SSL server, etc.
 
-- **Choose \*NIX:** Joomla! requires at least PHP and MySQL to run.
-  Because Apache/PHP/MySQL run best on UNIX or GNU/LINUX servers, choose
-  a host that offers these options.
-- **Use Secure FTP:** Choose a host that requires SFTP (Secure FTP) for
-  transferring files. This prevents others from snooping your user name
-  and password from packets as they travel over the Internet.
+-   **Choose \*NIX:** Joomla! requires at least PHP and MySQL to run.
+    Because Apache/PHP/MySQL run best on UNIX or GNU/LINUX servers, choose
+    a host that offers these options.
+-   **Use Secure FTP:** Choose a host that requires SFTP (Secure FTP) for
+    transferring files. This prevents others from snooping your user name
+    and password from packets as they travel over the Internet.
 
 <!-- -->
 
-- **Set PHP register_globals OFF:** The most security conscious hosts
-  turn PHP's Register Globals directive OFF by default. The next best
-  allow you to turn it off in local *.htaccess* or *php.ini* files. A
-  host that requires you to run a site with Register Globals ON should
-  be avoided. This is true for any PHP enabled site, whether or not you
-  are running Joomla!. There is a legitimate argument to be made by
-  hosts for keeping Register Globals ON for PHP4 sites. This is that it
-  would break too much legacy code. This argument should not be accepted
-  for a PHP5 installation. Beginning with PHP5, the official PHP
-  recommendation was to keep Register Globals is OFF. Note that
-  beginning with PHP6, there will not even be a Register Globals
-  setting, so don't get caught in a Register Globals backwater. Modify
-  your code to work without Register Globals, and choose a host that
-  encourages such practices.
+-   **Set PHP register_globals OFF:** The most security conscious hosts
+    turn PHP's Register Globals directive OFF by default. The next best
+    allow you to turn it off in local _.htaccess_ or _php.ini_ files. A
+    host that requires you to run a site with Register Globals ON should
+    be avoided. This is true for any PHP enabled site, whether or not you
+    are running Joomla!. There is a legitimate argument to be made by
+    hosts for keeping Register Globals ON for PHP4 sites. This is that it
+    would break too much legacy code. This argument should not be accepted
+    for a PHP5 installation. Beginning with PHP5, the official PHP
+    recommendation was to keep Register Globals is OFF. Note that
+    beginning with PHP6, there will not even be a Register Globals
+    setting, so don't get caught in a Register Globals backwater. Modify
+    your code to work without Register Globals, and choose a host that
+    encourages such practices.
 
 <!-- -->
 
-- **Stay up-to-date:** Choose a host that stays up-to-date with the
-  latest stable versions of core applications, including the operating
-  system, database, and
-  <a href="https://www.php.net/" class="external text" target="_blank"
-  rel="nofollow noreferrer noopener">PHP</a>.
+-   **Stay up-to-date:** Choose a host that stays up-to-date with the
+    latest stable versions of core applications, including the operating
+    system, database, and
+    <a href="https://www.php.net/" class="external text" target="_blank"
+    rel="nofollow noreferrer noopener">PHP</a>.
 
 <!-- -->
 
-- **Avoid cheap shared servers:** Be sure users on your shared server
-  can't view each others files and databases, for example through shell
-  accounts and cpanels.
+-   **Avoid cheap shared servers:** Be sure users on your shared server
+    can't view each others files and databases, for example through shell
+    accounts and cpanels.
 
 <!-- -->
 
-- **Proactive server management:** Choose a host that provides real
-  information about security compromises, rather than simply shutting
-  your site down. Check their user forums for evidence of how they've
-  responded to cracks in the past. A good host may for example, inform
-  you immediately that a security breach has occurred and will
-  quarantine the problem file for you, while leaving it there for
-  further investigation. A poor host will shut your site down and
-  provide limited information on why. Watch out! All too many do this.
+-   **Proactive server management:** Choose a host that provides real
+    information about security compromises, rather than simply shutting
+    your site down. Check their user forums for evidence of how they've
+    responded to cracks in the past. A good host may for example, inform
+    you immediately that a security breach has occurred and will
+    quarantine the problem file for you, while leaving it there for
+    further investigation. A poor host will shut your site down and
+    provide limited information on why. Watch out! All too many do this.
 
 <!-- -->
 
-- **Require raw log access:** Be sure you have access to raw server
-  logs. Reading these logs is a vital part of site security and
-  recovery.
+-   **Require raw log access:** Be sure you have access to raw server
+    logs. Reading these logs is a vital part of site security and
+    recovery.
 
 <!-- -->
 
-- **Performance matters:** Choose a host that limits the number of users
-  per machine and the average CPU load per machine to some reasonable
-  number (depending on hardware). Be sure they proactively move user
-  sites as needed to balance load. Check the number of domains on a
-  server using reverse IP lookup.
+-   **Performance matters:** Choose a host that limits the number of users
+    per machine and the average CPU load per machine to some reasonable
+    number (depending on hardware). Be sure they proactively move user
+    sites as needed to balance load. Check the number of domains on a
+    server using reverse IP lookup.
 
 <!-- -->
 
-- **Data center:** Choose a host that manages its own data center. Check
-  the data center infrastructure, such as redundant Internet access, hot
-  swappable backups, full daily backups, environment and access
-  controls, emergency generators, etc.
+-   **Data center:** Choose a host that manages its own data center. Check
+    the data center infrastructure, such as redundant Internet access, hot
+    swappable backups, full daily backups, environment and access
+    controls, emergency generators, etc.
 
 <!-- -->
 
-- **Know your neighbors:** Check that your host is not at risk of having
-  its IP addresses blocked because it hosts SPAM sites.
+-   **Know your neighbors:** Check that your host is not at risk of having
+    its IP addresses blocked because it hosts SPAM sites.
 
 <!-- -->
 
-- **Visit the Joomla Community Portal <a
-  href="https://community.joomla.org/service-providers-directory/listings/category/view/116-hosting-providers.html"
-  class="external text" target="_blank" rel="noreferrer noopener">hosting
-  section</a>:** If you are looking for a Joomla Host, please ensure you
-  make your own investigations as to the services offered and whether
-  they suit your needs.
+-   **Visit the Joomla Community Portal <a
+    href="https://community.joomla.org/service-providers-directory/listings/category/view/116-hosting-providers.html"
+    class="external text" target="_blank" rel="noreferrer noopener">hosting
+    section</a>:** If you are looking for a Joomla Host, please ensure you
+    make your own investigations as to the services offered and whether
+    they suit your needs.
 
 <!-- -->
 
-- **Grow with your site:** As sites grow in complexity, resource
-  requirements, and security requirements, they may need to be moved off
-  of a shared server environment. At that point, good options
-  include, 1) **dedicated servers** offer the best possible security and
-  performance, but at the highest expense, 2) **virtual servers** offer
-  almost all the advantages of a dedicated server, but the hardware and
-  configuration cost is shared among multiple virtual servers.
+-   **Grow with your site:** As sites grow in complexity, resource
+    requirements, and security requirements, they may need to be moved off
+    of a shared server environment. At that point, good options
+    include, 1) **dedicated servers** offer the best possible security and
+    performance, but at the highest expense, 2) **virtual servers** offer
+    almost all the advantages of a dedicated server, but the hardware and
+    configuration cost is shared among multiple virtual servers.
 
 ### What are the Best Practices for Site Backups?
 
@@ -210,7 +210,7 @@ files, potentially "over-filling" the file-system.
     a chosen cycle, normally weekly.
 3.  A good backup practice is to store backups away from the current
     data location, preferably off site.
-4.  Dynamic data should be backed up *offline* or *hot* to avoid *fuzzy*
+4.  Dynamic data should be backed up _offline_ or _hot_ to avoid _fuzzy_
     backups (data is changing as you back it up, potentially leading to
     related information not being in sync when backed up.
 
@@ -231,20 +231,20 @@ the database.
 
 ### Where Can I Learn About Vulnerable Extensions?
 
-- See the
-  <a href="https://extensions.joomla.org/vulnerable-extensions/about/"
-  class="external text" target="_blank"
-  rel="noreferrer noopener">Vulnerable Extensions List</a>
+-   See the
+    <a href="https://extensions.joomla.org/vulnerable-extensions/about/"
+    class="external text" target="_blank"
+    rel="noreferrer noopener">Vulnerable Extensions List</a>
 
 ### Where Can I Learn More About File Permissions?
 
-- [Unix Permissions
-  Primer](https://docs.joomla.org/How_do_UNIX_file_permissions_work%3F "How do UNIX file permissions work?")
-- <a href="https://docs.joomla.org/Using_phpSuExec" class="mw-redirect"
-  title="Using phpSuExec">Using phpSuExec</a>
-- <a href="https://docs.joomla.org/Windows_Permissions_Primer"
-  class="mw-redirect" title="Windows Permissions Primer">Windows
-  Permissions Primer</a>
+-   [Unix Permissions
+    Primer](https://docs.joomla.org/How_do_UNIX_file_permissions_work%3F 'How do UNIX file permissions work?')
+-   <a href="https://docs.joomla.org/Using_phpSuExec" class="mw-redirect"
+    title="Using phpSuExec">Using phpSuExec</a>
+-   <a href="https://docs.joomla.org/Windows_Permissions_Primer"
+    class="mw-redirect" title="Windows Permissions Primer">Windows
+    Permissions Primer</a>
 
 ### How Do I Set Up a Powerful Password Scheme?
 
@@ -254,47 +254,47 @@ terms of which ids and passwords are used.
 
 **Directions**
 
-- **Level 5 (Public)** - is the password you use on public sites. It is
-  not imperative that you use a different password on every site. In
-  fact it's more effective to use a different username on every site
-  than it is to use a different password truth be told! Knowing the
-  username allows easy hacking...half the work is done! knowing the
-  password is useless unless you know what account it goes to!
+-   **Level 5 (Public)** - is the password you use on public sites. It is
+    not imperative that you use a different password on every site. In
+    fact it's more effective to use a different username on every site
+    than it is to use a different password truth be told! Knowing the
+    username allows easy hacking...half the work is done! knowing the
+    password is useless unless you know what account it goes to!
 
 <!-- -->
 
-- **Level 4 (Webmaster)** - Reserved for SQL Only. this is a password
-  that would only be used by SQL and limited to a specific database in
-  SQL. The best way to protect SQL is by limiting each account to just
-  being able to do the minimum that DB requires. In some cases it is
-  even wise to have a read only account for display and a separate write
-  account that the Backend write functions use. But that doesn't apply
-  to J! at all... for J! the best practice is to set up an individual
-  account (not root for sure) that only has read and write access to the
-  J! DB nothing else.
+-   **Level 4 (Webmaster)** - Reserved for SQL Only. this is a password
+    that would only be used by SQL and limited to a specific database in
+    SQL. The best way to protect SQL is by limiting each account to just
+    being able to do the minimum that DB requires. In some cases it is
+    even wise to have a read only account for display and a separate write
+    account that the Backend write functions use. But that doesn't apply
+    to J! at all... for J! the best practice is to set up an individual
+    account (not root for sure) that only has read and write access to the
+    J! DB nothing else.
 
 <!-- -->
 
-- **Level 3 (Webmaster)** - FTP and Server Access. these can be the same
-  user:pass combo since both if compromised can do the most damage.
-  doesn't matter if the Backend or Cpanel is safe if the FTP is not and
-  the same goes the other way!
+-   **Level 3 (Webmaster)** - FTP and Server Access. these can be the same
+    user:pass combo since both if compromised can do the most damage.
+    doesn't matter if the Backend or Cpanel is safe if the FTP is not and
+    the same goes the other way!
 
 <!-- -->
 
-- **Level 2 (Personal Data Access)** - This password should be used for
-  any sites or locations that contain personal data with the exception
-  of Banking (see level 1). these sites are often used for social
-  engineering data such as medical records, service accounts and any
-  financial records not directly related to banking! You want these to
-  be secure but also different from the real threat of security...your
-  money!
+-   **Level 2 (Personal Data Access)** - This password should be used for
+    any sites or locations that contain personal data with the exception
+    of Banking (see level 1). these sites are often used for social
+    engineering data such as medical records, service accounts and any
+    financial records not directly related to banking! You want these to
+    be secure but also different from the real threat of security...your
+    money!
 
 <!-- -->
 
-- **Level 1 (Banking!)** - this needs to be the most secure in fact if
-  you have two different banks it actually pays to have a different
-  user:pass for each just to be sure!
+-   **Level 1 (Banking!)** - this needs to be the most secure in fact if
+    you have two different banks it actually pays to have a different
+    user:pass for each just to be sure!
 
 ## Joomla! Core
 
@@ -384,10 +384,11 @@ security issues to be aware of:
     core, a third-party extension, or the browser itself.
 
 ### How do I turn off RG_EMULATION? <img src="https://docs.joomla.org/images/4/43/Compat_icon_1_0.png"
+
 decoding="async" data-file-width="40" data-file-height="17" width="40"
 height="17" alt="Joomla 1.0" />
 
-PHP's *register_globals* option was a terrible idea from a security
+PHP's _register_globals_ option was a terrible idea from a security
 point of view. It encouraged lazy programming and exposed many scripts
 to needless risk. This is because RG allows variables passed by the user
 to be automatically passed to the script. This breaks a cardinal rule:
@@ -397,9 +398,9 @@ Register Globals has been officially deprecated in PHP5, and beginning
 with PHP6 will no longer even exist. Good riddance!
 
 Joomla 1.0.x uses RG_Emulation functions which are somewhat safer than
-standard PHP *register_globals*, but it's still best not to allow any
+standard PHP _register_globals_, but it's still best not to allow any
 form of automatic variable assignments. Note that poorly-written
-extensions may fail with *register_globals* turned off. Such failure is
+extensions may fail with _register_globals_ turned off. Such failure is
 a sign that the extension does not check user input correctly. Best
 advise: Don't use such extensions.
 
@@ -411,7 +412,7 @@ Administrator interface.
 
 **Joomla! 1.0.12 and earlier**
 
-Edit the file, *globals.php*, found in the root directory of your
+Edit the file, _globals.php_, found in the root directory of your
 Joomla! site. At about line 23 change:
 
     define('RG_EMULATION',1)
@@ -429,15 +430,15 @@ You need to compile MySQL support into PHP or the MySQL server is down.
 **Error 2 = FATAL ERROR: Connection to database ...**
 
 Joomla! cannot talk to the database, most likely you have a typo in the
-username or password settings in *configuration.php*, or you are trying
+username or password settings in _configuration.php_, or you are trying
 to access a database table with the wrong table prefix.
 
 **Error 3 = FATAL ERROR: Database not found...**
 
 The database cannot be found. Check the database settings in
-*configuration.php*
+_configuration.php_
 
-The MySQL variables in *configuration.php* (found in Joomla!'s root
+The MySQL variables in _configuration.php_ (found in Joomla!'s root
 directory) can be modified to correct these problems.
 
 For Joomla! 1.0.xx
@@ -448,7 +449,7 @@ For Joomla! 1.0.xx
     $mosConfig_db = 'accountname_dbName';
     $mosConfig_dbprefix = 'jos_';
 
-Modifying the *\$mosConfig_host* to an IP Address of a remote host works
+Modifying the _\$mosConfig_host_ to an IP Address of a remote host works
 for hosts that have separate MySQL servers from the client hosting
 servers.
 
@@ -560,7 +561,6 @@ and for directories;
     Group has Read and Execute only
     Other has Read and Execute only
 
-  
 Now, things can get a little complicated when we start talking about
 shared Web Servers, the Web Server software will be running with its own
 username and groupname, most servers are configured for them to use
@@ -610,10 +610,10 @@ for "Writable" permissions to be too vague.
 Unfortunately, as the Web-Installer does not know how your server is
 configured, then it cannot be more specific, however, once you
 understand the permissions settings and you know a little about Web
-Serving environments, you will actually find that the term *writable* is
+Serving environments, you will actually find that the term _writable_ is
 actually specific and a more than adequate description of what Joomla!
 needs. Thinking back to the above information, you may remember that
-there are three places where *write* permissions maybe set;
+there are three places where _write_ permissions maybe set;
 
     Owner Writable
     Group Writable
@@ -625,7 +625,7 @@ browser, it is the Web Server trying to access the files, thus it is the
 "Other" permissions that will apply to it. If the "Other" permissions do
 not allow the Web Server to Read, Write or Execute commands in the
 Joomla! directories, you will receive the message saying that the
-directories are not *writable*.
+directories are not _writable_.
 
 In this case, you will need to configure the Other permissions to be "7"
 on the directories listed in the Web Installer. So your total
@@ -642,9 +642,9 @@ files.
 Just to make things even more confusing, many hosting firms make use of
 software called phpsuExec or suExec, these tools change the way the Web
 Server runs, where the Web Server would not normally run as your
-username, in this case, it does. The use of the *other* permissions, may
+username, in this case, it does. The use of the _other_ permissions, may
 not be required, now you may only need to configure directories to be
-*writable* to your own username and groupname, this allows directory
+_writable_ to your own username and groupname, this allows directory
 permissions to be set as 755 or 775 instead of 757 or 777.
 
     755 = rwx r-x r-x
@@ -715,7 +715,6 @@ and for directories,
     Group has Read and Execute only
     Other has Read and Execute only
 
-  
 If you have SSH shell access the following commands can be run from the
 command line to reset all files and directories back to the server
 defaults of 755 and 644. Change directories to the top directory (" / ")
@@ -727,7 +726,7 @@ of your Joomla! installation, then run:
 If you only have FTP access, this can be a time consuming job, however,
 unless you changed more directories during the installation that was
 requested, you should only need to reset about 10 directories and the
-*configuration.php* file.
+_configuration.php_ file.
 
 Keep in mind that to install any extensions or templates after the
 actual Joomla! installation you may need to elevate the default
@@ -735,8 +734,8 @@ permissions again on the appropriate directories just for the
 installation period, you may then demote them again after the add-on is
 installed.
 
-If you decide to use *caching* the cache directory will need to be
-*writable* by the Web server user to allow it to write its temporary
+If you decide to use _caching_ the cache directory will need to be
+_writable_ by the Web server user to allow it to write its temporary
 files.
 
 ### What are the recommended file and directory permissions?
@@ -766,7 +765,7 @@ have control of site files.
 2.  chmod the entire web space to 764 or 664 will be possible giving
     other users write access as well
 
-### Isn't locating all Joomla! files inside *public_html* a security risk?
+### Isn't locating all Joomla! files inside _public_html_ a security risk?
 
 **Short answer**
 
@@ -781,22 +780,22 @@ is done by setting the user, group, and world permissions on directories
 and files.
 
 Typically, the most insecure directory on a UNIX server is the one
-serving Web files, usually called *public_html*. This is because it is
+serving Web files, usually called _public_html_. This is because it is
 publicly accessible, world-readable, and in the case of a CMS-powered
 site, possibly even world-writable. That status is the very definition
 of officially, totally, and utterly insecure.
 
-As long as you want the entire world to view your *public_html*
+As long as you want the entire world to view your _public_html_
 directory there is no problem. After all, that's exactly what it's
 designed to do. But if you want to hide anything, the plot thickens. If
-*public_html* contains configuration files with secret data, or scripts
+_public_html_ contains configuration files with secret data, or scripts
 that write to databases, or scripts that modify other files, or scripts
 that append to logs, or scripts that store temporary data in caches, or
 scripts that support file and graphic uploads, or scripts that process
 form input, or scripts that process financial and personal data, this
 read-only directory becomes a world-accessible, read-write application.
 
-If there are ANY vulnerabilities in ANY files in the *public_html*
+If there are ANY vulnerabilities in ANY files in the _public_html_
 directory, the entire server is potentially vulnerable, and not just
 your Web site but possibly every Web site on your server. Such
 vulnerabilities give attackers access to the scripting engines used to
@@ -806,7 +805,7 @@ call arbitrary commands, your entire server could be toast.
 
 One good way to block attackers, is to keep potential vulnerabilities
 behind a secure fence. For this reason, it is often recommended to only
-place files that require direct access from the Web in *public_html*.
+place files that require direct access from the Web in _public_html_.
 Other files should be loaded into applications using such functions as
 include and require. To access such files, attackers must first
 penetrate your server, such as by discovering a root username/password.
@@ -821,13 +820,13 @@ is provided by requiring that you remove this installation directory
 after completing the install.
 
 Granting a world-accessible installer the ability to write to files
-outside of *public_html* would be a huge security hole. Thus, by default
-every Joomla! file ends up in the world-accessible *public_html*
+outside of _public_html_ would be a huge security hole. Thus, by default
+every Joomla! file ends up in the world-accessible _public_html_
 directory. Not coincidentally, this is also the directory in which an
 angry planetful of would-be attackers are hoping to find your files.
 
 Currently, most Joomla extensions also have limited support for file
-locations outside of *public_html*. This is a legacy of the Joomla!
+locations outside of _public_html_. This is a legacy of the Joomla!
 1.0.x installation model.
 
 **Joomla! defense**
@@ -840,7 +839,7 @@ protection, has it. One vulnerable file exposes the whole site.
 
 **The challenge**
 
-The practice of placing everything in *public_html*, and then building a
+The practice of placing everything in _public_html_, and then building a
 little fence inside each file can become an administrative nightmare.
 One vulnerable file exposes the entire server. This is a glaring example
 of an allow, then deny security model.
@@ -856,14 +855,14 @@ else to verify) every line of code, of every new file, for every known
 vulnerability. And because scripts can have unintended consequences on
 each other, you cannot forget to test, test, test. Of course this is
 generally true for all software, but placing the entire application in
-*public_html* makes the issue extremely critical.
+_public_html_ makes the issue extremely critical.
 
 The recent wave of URL injection attacks against poorly-written third
 party extensions would have been much less successful if those files had
-been stored outside of *public_html*, and thus simply unavailable
+been stored outside of _public_html_, and thus simply unavailable
 through URLs. Note that in many cases the actual vulnerabilities could
 still exist within the files, but being inside the fence (outside of
-*public_html*) they would not be exposed to URL injections.
+_public_html_) they would not be exposed to URL injections.
 
     To (Deny, then Allow), or (Allow, then Deny)?
 
@@ -897,7 +896,7 @@ may be highly inconvenient, but it's not usually a security breach.
 
 1.  In Joomla! 1.0.x, some extensions, and the Joomla! framework, give
     you the option of locating critical directories outside of
-    *public_html* after you have completed the installation. Whenever
+    _public_html_ after you have completed the installation. Whenever
     possible you should do this.
 2.  Joomla! 1.5 goes far in the right direction. It provides several new
     constants for specifying the location of particularly sensitive
@@ -908,12 +907,13 @@ may be highly inconvenient, but it's not usually a security breach.
     directory basis.
 
 ### How do I adjust Joomla 1.5 defines <img src="https://docs.joomla.org/images/c/c8/Compat_icon_1_5.png"
+
 decoding="async" data-file-width="40" data-file-height="17" width="40"
 height="17" alt="Joomla 1.5" />
 
 There are two defines files that will generally need to be edited. The
-*/includes/defines.php* file is for the Frontend and
-*/administrator/includes/defines.php* is for the Backend. Below is the
+_/includes/defines.php_ file is for the Frontend and
+_/administrator/includes/defines.php_ is for the Backend. Below is the
 relevant code.
 
     define( 'JPATH_ROOT' , implode( DS, $parts ) );
@@ -925,13 +925,13 @@ relevant code.
 
 .DS. = Directory Separator
 
-### How do I block direct access to critical files using *.htaccess*?
+### How do I block direct access to critical files using _.htaccess_?
 
-1.  Make a backup copy of your *.htaccess* file. Use your backup file to
+1.  Make a backup copy of your _.htaccess_ file. Use your backup file to
     recover if the following fails. Be sure to delete the backup file
     once you are finished.
-2.  Add the following to your *.htaccess* file. This example will
-    protect both the *configuration.php* and *.htaccess* files.
+2.  Add the following to your _.htaccess_ file. This example will
+    protect both the _configuration.php_ and _.htaccess_ files.
 
 <!-- -->
 
@@ -957,7 +957,7 @@ In the Backend, go to Site --\> Global Configuration --\> Server.
 **Using the UNIX shell**
 
 **Note:** The find command automatically assumes that it should start
-from the current directory. To be safe, go to your *public_html*
+from the current directory. To be safe, go to your _public_html_
 directory and specify a path as the first argument. Some shells, such as
 bash on Apple OS X, must have a path specified in the find command.
 
@@ -973,6 +973,7 @@ bash on Apple OS X, must have a path specified in the find command.
 2.  You may need to reset write permissions to install more extensions.
 
 ### How can I set the administrator directory to use an SSL server? <img src="https://docs.joomla.org/images/4/43/Compat_icon_1_0.png"
+
 decoding="async" data-file-width="40" data-file-height="17" width="40"
 height="17" alt="Joomla 1.0" />
 
@@ -983,7 +984,7 @@ individual directories, however there are various (elegant and not so
 elegant) hacks posted in the forums.
 
 Note that earlier techniques involving the variable
-*\$mosConfig_live_site* are deprecated, and will not work with current
+_\$mosConfig_live_site_ are deprecated, and will not work with current
 Joomla! versions due to increased security enhancements.
 
 ### Why isn't restricting access by IP recommended?
@@ -1279,26 +1280,24 @@ can usually leave the database tables as they are.)
 
 ## Apache
 
-**Covers information on Apache Web server, Apache modules, *.htaccess*
+**Covers information on Apache Web server, Apache modules, _.htaccess_
 files, etc.**
 
-### How do I block directory scans using *.htaccess*?
+### How do I block directory scans using _.htaccess_?
 
 **Directions**
 
-Add one of the following Apache rewrite rules to your *.htaccess* file.
+Add one of the following Apache rewrite rules to your _.htaccess_ file.
 The first example will internally rewrite all attempts to access files
 with names starting with "phpMyAdmin" to index.php. Be wary of using
 this as it allows a seemingly valid duplicate URL for your homepage. The
 second rule is more safe. It simply returns a 403 response.
 
-  
 **Sample Apache Rewrite Rule**
 
     RewriteRule ^phpMyAdmin /index.php [L]
     RewriteRule ^phpMyAdmin - [F]
 
-  
 **Some Regular Expression Tips**
 
     ^ Means start of pattern
@@ -1308,18 +1307,18 @@ second rule is more safe. It simply returns a 403 response.
     $ Means end of pattern
     \.  Literal periods must be escaped with a leading \
 
-### How can I change PHP settings using *.htaccess*?
+### How can I change PHP settings using _.htaccess_?
 
 This FAQ explains how to set boolean PHP configuration directives using
 php_flag. The format for php_flag is: php_flag name on\|off
 
 **Directions**
 
-1\. Open the *.htaccess* file located in your site's home directory, or
+1\. Open the _.htaccess_ file located in your site's home directory, or
 if you don't have one, create a blank one now. Note the period character
 (.) at the beginning of the file name.
 
-2\. Add any of the following code samples to your *.htaccess* file, each
+2\. Add any of the following code samples to your _.htaccess_ file, each
 on its own line. These sample commands will prevent common global
 variable injection attacks, cross site scripting (XSS) sttacks, and code
 injection attacks.
@@ -1330,14 +1329,13 @@ injection attacks.
 
     php_flag magic_quotes_gpc on
 
-  
-*Note that although the magic_quotes_gpc directive adds a layer of
+_Note that although the magic_quotes_gpc directive adds a layer of
 security, for performance reasons it is not considered a best practice.
 If you have verified that your site correctly filters and validates all
 user data (and every production site really should), then there is no
-need to add this directive. If you have any doubt, add it.*
+need to add this directive. If you have any doubt, add it._
 
-3\. Save the *.htaccess* file in your site's home directory.
+3\. Save the _.htaccess_ file in your site's home directory.
 
 4\. Test your site's Frontend and Backend.
 
@@ -1351,12 +1349,12 @@ or as a CGI program, which is slow. Thus, FastCGI is a good solution for
 shared hosting.
 
 Since the PHP interpreter runs as a single instance, it does (AFAIK) not
-parse the *.htaccess* or *php.ini* files per directory. To change
-*php.ini* settings, your host must offer you a method to set up or
-modify your own *php.ini*, or at least parts of it. Here is how one of
-host does this: it parses one *php.ini* file (which the user can modify)
+parse the _.htaccess_ or _php.ini_ files per directory. To change
+_php.ini_ settings, your host must offer you a method to set up or
+modify your own _php.ini_, or at least parts of it. Here is how one of
+host does this: it parses one _php.ini_ file (which the user can modify)
 once an hour, and puts some well-defined settings into the web server's
-main *php.ini* file. Thus, users are able to change some settings for
+main _php.ini_ file. Thus, users are able to change some settings for
 their site only, such as turning register_globals off, switching between
 PHP4 and PHP5.
 
@@ -1372,10 +1370,10 @@ that a host has not enabled mod_rewrite on the server.
 1\. Enable SEO in your administrator! (administrator \> SEO \> Enable \>
 Save)
 
-2\. Rename your htaccess.txt to *.htaccess*, or use your existing
-*.htaccess* file.
+2\. Rename your htaccess.txt to _.htaccess_, or use your existing
+_.htaccess_ file.
 
-3\. Place ONLY the following lines in your *.htaccess* file in the
+3\. Place ONLY the following lines in your _.htaccess_ file in the
 domain root folder.
 
           Options +FollowSymLinks
@@ -1393,37 +1391,37 @@ rel="nofollow noreferrer noopener">http://www.example.com/joomla.html</a>
 you get an error, mod_rewrite is not working.
 
 6\. Note: if your site is located in a folder, for example "test" you
-will need to modify the *.htaccess* file as follows:
+will need to modify the _.htaccess_ file as follows:
 
           Options +FollowSymLinks
           RewriteEngine On
           RewriteRule ^test/joomla\.html http://www.joomla.org/ [R=301,L]
 
-### How Do I Switch to PHP5 using *.htaccess*?
+### How Do I Switch to PHP5 using _.htaccess_?
 
-Many shared server environments currently run *.php* scripts using the
-PHP4 interpreter and *.php5* code using the PHP5 interpreter. Rather
+Many shared server environments currently run _.php_ scripts using the
+PHP4 interpreter and _.php5_ code using the PHP5 interpreter. Rather
 than changing all your file extensions, and perhaps breaking many links,
-use a *.htaccess* file to dynamically map one extension to the other.
+use a _.htaccess_ file to dynamically map one extension to the other.
 
 **IMPORTANT CAVEAT:** One common reason for doing this is that hosts
-leave PHP4 configured with *register_globals* ON in order to support
-legacy code while offering PHP5 with *register_globals* OFF. If you are
+leave PHP4 configured with _register_globals_ ON in order to support
+legacy code while offering PHP5 with _register_globals_ OFF. If you are
 on a shared server at a host that has configured register_globals ON
 server wide, you should be worried!
 
-Turning register globals OFF via a local *php.ini* or a *.htaccess* file
+Turning register globals OFF via a local _php.ini_ or a _.htaccess_ file
 will NOT offer you any extra protection. Another exploited account on
 your server can simple hack yours. For server security, and since php
 4.2, register globals is OFF server wide by default (php default). Any
 host overriding this is inviting trouble. If you need register globals
-ON for a specific site, simple use a *.htaccess* file for that specific
+ON for a specific site, simple use a _.htaccess_ file for that specific
 directory, and server wide security will not be compromised. Of course,
 if you do this be sure all effected scripts fully sanitize input data.
 
 **Requirements**
 
-1\. Your Apache server must be configured to use *.htaccess* files. If
+1\. Your Apache server must be configured to use _.htaccess_ files. If
 not, you may be able to request this from your host. 2. Your Apache
 configuration must allow the following setting. If not, you may be able
 to request this from your host. 3. Your host must have configured the
@@ -1432,15 +1430,15 @@ possibly have chosen other extensions. Check with your host.
 
 **Directions**
 
-1\. Check to be sure your site is configured to use *.htaccess* files.
+1\. Check to be sure your site is configured to use _.htaccess_ files.
 
-2\. Make a backup of the *.htaccess* file in your root public_http
-directory. If you don't have a *.htaccess* file at this location, create
+2\. Make a backup of the _.htaccess_ file in your root public_http
+directory. If you don't have a _.htaccess_ file at this location, create
 one now.
 
 3\. There are various ways to set the command, depending on your server
 configuration. One of the following will probably work. Add ONE the
-following lines at the end of your *.htaccess* file. If unsure which to
+following lines at the end of your _.htaccess_ file. If unsure which to
 use, check with your hosting provider on which version works best for
 your configuration.
 
@@ -1450,15 +1448,15 @@ your configuration.
 
 4\. Carefully test.
 
-5\. Delete the backup *.htaccess* file. Don't leave backups of
-*.htaccess* files in public directories.
+5\. Delete the backup _.htaccess_ file. Don't leave backups of
+_.htaccess_ files in public directories.
 
-### How do I password protect directories using *.htaccess*?
+### How do I password protect directories using _.htaccess_?
 
 This FAQ explains how to protect the Joomla! /administrator/ directory
 on Apache servers using the htpasswd utility. You can easily adapt these
 instructions to protect other directories. If you need help finding or
-creating your *.htaccess* file, start here.
+creating your _.htaccess_ file, start here.
 
 **Caveat (From Apache.org)**
 
@@ -1496,37 +1494,36 @@ password.
 to read the following link first. Apache Authentication, Authorization,
 and Access Control
 
-2\. Check to be sure your site is configured to use *.htaccess* files.
+2\. Check to be sure your site is configured to use _.htaccess_ files.
 If not sure, ask your host.
 
-3\. Decide where to put your *.htaccess* file. Because Apache
-recursively searches all directories in a path for *.htaccess* files,
+3\. Decide where to put your _.htaccess_ file. Because Apache
+recursively searches all directories in a path for _.htaccess_ files,
 the higher in your directory structure you place this file, the more
-directories it will control. If there is already an *.htaccess* file in
+directories it will control. If there is already an _.htaccess_ file in
 the directory you choose, it's probably best to add the new code to it.
 
-4\. Decide where to store your *.htpasswd* and *.htgroups* files. These
+4\. Decide where to store your _.htpasswd_ and _.htgroups_ files. These
 files should **never** be publicly accessible through the Web. Below is
 an example directory structure showing good locations for each file.
-Note that the */auth/* directory in this example is NOT accessible from
+Note that the _/auth/_ directory in this example is NOT accessible from
 the Web.
 
     /home/mysite/public_html/.htaccess
     /home/mysite/auth/.htpasswd/
     /home/mysite/auth/.htgroups/
 
-  
-5. Create the *.htpasswd* and *.htgroups* files as explained in the
-official Apache HowTo, referenced above. (Since you've read the always
-current and official documentation at Apache.org, we'll spare you the
-trouble of displaying it again here.)
+5. Create the _.htpasswd_ and _.htgroups_ files as explained in the
+   official Apache HowTo, referenced above. (Since you've read the always
+   current and official documentation at Apache.org, we'll spare you the
+   trouble of displaying it again here.)
 
-6\. If a *.htaccess* file already exists in the directory you have
+6\. If a _.htaccess_ file already exists in the directory you have
 chosen, make a backup copy. If the file does not exist, create a new
 file with that name now. (Don't forget the dot at the beginning of the
 name.)
 
-7\. Add the following code to the *.htaccess* file. Adjust the example
+7\. Add the following code to the _.htaccess_ file. Adjust the example
 paths (marked in red) as needed for your server. Adjust the group name
 that you created in step 5 if it differs from the below example.
 
@@ -1538,12 +1535,12 @@ that you created in step 5 if it differs from the below example.
 
 8\. Test carefully.
 
-9\. Remove all backup *.htaccess* files from *public_http* directories.
+9\. Remove all backup _.htaccess_ files from _public_http_ directories.
 
-### How do I restrict directory access by IP address using *.htaccess*?
+### How do I restrict directory access by IP address using _.htaccess_?
 
 This can be a effective way to protect your Joomla! administrator
-directory. Any other directory in *public_html* can be protected in the
+directory. Any other directory in _public_html_ can be protected in the
 same way. This method only works if you have a static IP address
 assigned to you. Anyone attempting to browse such directories using a
 different IP Address will get a 403 Forbidden error.
@@ -1551,7 +1548,7 @@ different IP Address will get a 403 Forbidden error.
 **Directions**
 
 1.  In the directory you wish to protect, open (or create) a file
-    called, *.htaccess*. (Note the dot at the beginning of the file
+    called, _.htaccess_. (Note the dot at the beginning of the file
     name.)
 2.  Add the following code to this file, replacing 100.100.100.100 in
     this example with the static IP address you plan to allow:
@@ -1562,79 +1559,78 @@ different IP Address will get a 403 Forbidden error.
     Deny from all
     Allow from 100.100.100.100
 
-- Optional: You can enter partial IP Addresses, such as, 100.100.100.
-  This allows access to a range of addresses.
+-   Optional: You can enter partial IP Addresses, such as, 100.100.100.
+    This allows access to a range of addresses.
 
 <!-- -->
 
-- Optional: You can add multiple addresses by separating them with
-  comma's.
+-   Optional: You can add multiple addresses by separating them with
+    comma's.
 
 <!-- -->
 
     100.100.100.101, 100.100.100.102
 
-### How do I convert an *htaccess.txt* file into a *.htaccess* file?
+### How do I convert an _htaccess.txt_ file into a _.htaccess_ file?
 
 When using PHP as an Apache module, you can change the configuration
 settings using directives in Apache configuration files (e.g. httpd.conf
-and *.htaccess* files). You will need "AllowOverride Options" or
+and _.htaccess_ files). You will need "AllowOverride Options" or
 "AllowOverride All" privileges to do so. If you control your own Apache
 configuration, you can and should use httpd.conf. If you do not control
 your Apache configuration (such as on a shared server), you must use
-*.htaccess* files.
+_.htaccess_ files.
 
 **Directions**
 
-1.  First look for the file, *htaccess.txt* in your root directory. It
+1.  First look for the file, _htaccess.txt_ in your root directory. It
     should have been installed during the Joomla! installation. (Note
     that this file name does not begin with a dot.) Open and carefully
-    read *htaccess.txt*. It contains important suggestions on how to
+    read _htaccess.txt_. It contains important suggestions on how to
     protect your site.
 2.  Make any adjustments to this file as appropriate for your site, and
-    then save it in your site's home directory as, *.htaccess*
+    then save it in your site's home directory as, _.htaccess_
     (including the dot).
 3.  Test your site's Frontend and Backend. If it produces errors, rename
-    the file back to *htaccess.txt*, and troubleshoot your edits. If you
+    the file back to _htaccess.txt_, and troubleshoot your edits. If you
     are unable to get this working, you may have to leave the file named
-    *htaccess.txt*.
-4.  Use *phpinfo()* to ensure that all configurations are set as you
-    intended. Note: Web-accessible files that include *phpinfo()* are
+    _htaccess.txt_.
+4.  Use _phpinfo()_ to ensure that all configurations are set as you
+    intended. Note: Web-accessible files that include _phpinfo()_ are
     potential security risks. They offer attackers lots of useful
     information about your server. Always remove such files after use.
 
-  
 **More Information**
 
-- <a href="https://www.php.net/configuration.changes"
-  class="external text" target="_blank"
-  rel="nofollow noreferrer noopener">Official PHP Manual: How to change
-  configuration settings</a>
-- <a href="https://www.php.net/manual/en/ini.php#ini.list"
-  class="external text" target="_blank"
-  rel="nofollow noreferrer noopener">Official PHP Manual: List of PHP INI
-  directives</a>
+-   <a href="https://www.php.net/configuration.changes"
+    class="external text" target="_blank"
+    rel="nofollow noreferrer noopener">Official PHP Manual: How to change
+    configuration settings</a>
+-   <a href="https://www.php.net/manual/en/ini.php#ini.list"
+    class="external text" target="_blank"
+    rel="nofollow noreferrer noopener">Official PHP Manual: List of PHP INI
+    directives</a>
 
-### How do I block direct hot linking to image files using *.htaccess*?
+### How do I block direct hot linking to image files using _.htaccess_?
 
 **Caveats**
 
-1.  Your server must allow *.htaccess* files for this technique to work.
-2.  If you do not have a *.htaccess* file in your root directory, see
+1.  Your server must allow _.htaccess_ files for this technique to work.
+2.  If you do not have a _.htaccess_ file in your root directory, see
     the related FAQ first.
 3.  Do not use this method to redirect image hot links to HTML pages or
     to servers that are not your own.
 4.  Hot linked images can only be replaced by other images, not with
     HTML pages.
-5.  As with any *.htaccess* rewrite, you may block legitimate traffic,
+5.  As with any _.htaccess_ rewrite, you may block legitimate traffic,
     such as users behind proxies or firewalls.
 
 **Directions**
 
-1.  Create a *jpeg* image called *no_hot_link.jpe*. Note that the odd
-    file extension (*.jpe*) is intentional and important. Place this
-    file in your *images* directory.
-2.  Place the following code in the *.htaccess* file of your root
+1.  Create a _jpeg_ image called _no_hot_link.jpe_. Note that the odd
+    file extension (_.jpe_) is intentional and important. Place this
+    file in your _images_ directory.
+2.  Place the following code in the _.htaccess_ file of your root
     directory.
 
 <!-- -->
@@ -1688,14 +1684,14 @@ last line of the previous examples with this line:
 Might as well get it from the horse's mouth. Rasmus Lerdorf, the
 originator of PHP, sums up how and why PHP developed as it did.
 
-*"What it all boils down to is that PHP was never meant to win any
+_"What it all boils down to is that PHP was never meant to win any
 beauty contests. It wasn't designed to introduce any new revolutionary
 programming paradigms. It was designed to solve a single problem: the
 Web problem. That problem can get quite ugly, and sometimes you need an
 ugly tool to solve your ugly problem. Although a pretty tool may, in
 fact, be able to solve the problem as well, chances are that an ugly PHP
 solution can be implemented much quicker and with many fewer resources.
-That generally sums up PHP's stubbornness."*
+That generally sums up PHP's stubbornness."_
 
 ### What is the latest stable release of PHP?
 
@@ -1736,7 +1732,7 @@ to view content, even if not all features are loaded.
     forget to ramp up the compression level of PNGs, and, if possible,
     reducing them to indexed pallettes.
 4.  CSS compression. Easy one this - put a little script to output a
-    gzipped version of your CSS file(s) and point your *index.php* at
+    gzipped version of your CSS file(s) and point your _index.php_ at
     it. Example script below - I didn't write it, but it's short, to the
     point, and works.
 
@@ -1769,12 +1765,12 @@ to view content, even if not all features are loaded.
 
 ### Should PHP run as a CGI script or as an Apache module?
 
-There are two ways to configure Apache to use PHP:  
+There are two ways to configure Apache to use PHP:
 
-1.  Configure Apache to load the PHP interpreter as an *Apache module*
-2.  Configure Apache to run the PHP interpreter as a *CGI binary*
+1.  Configure Apache to load the PHP interpreter as an _Apache module_
+2.  Configure Apache to run the PHP interpreter as a _CGI binary_
 
-*(PS: Windows IIS normaly configures as CGI by the way)*  
+_(PS: Windows IIS normaly configures as CGI by the way)_
 
 It is the intention of this post to provide you information relating to
 the configuration and recognition of each method. "In general"
@@ -1812,7 +1808,7 @@ flexible in many respects as you should now not see, with phpSuExec (
 refer <a
 href="http://www.joomlatutorials.com/joomla-tips-and-tricks/40-miscellaneous-joomla-tips/114-how-to-troubleshoot-a-joomla-installation.html"
 class="external text" target="_blank"
-rel="nofollow noreferrer noopener">" target="_blank Permissions under
+rel="nofollow noreferrer noopener">" target="\_blank Permissions under
 phpSuExec</a> issues with file ownership being taken over by the Apache
 user, therefore you should no-longer have problems under FTP when trying
 to access or modify files that have been uploaded through a PHP
@@ -1820,20 +1816,20 @@ interface, such as Joomla! upload options.
 
 If your server is configured to run PHP as an Apache
 mhttp://www.joomlatutorials.com/joomla-tips-and-tricks/40-miscellaneous-joomla-tips/114-how-to-troubleshoot-a-joomla-installation.htmlodule,
-then you will have the choice of using either *php.ini* or Apache
-*.htaccess* files, however, if your server runs PHP in CGI mode then you
-will only have the choice of using *php.ini* files locally to change
+then you will have the choice of using either _php.ini_ or Apache
+_.htaccess_ files, however, if your server runs PHP in CGI mode then you
+will only have the choice of using _php.ini_ files locally to change
 settings, as Apache is no longer in complete control of PHP.
 
 **Testing and Reviewing Your PHP Installation**
 
-*Also known as "Everything you ever wanted and didn't want to know about
-PHP"*
+_Also known as "Everything you ever wanted and didn't want to know about
+PHP"_
 
 To find out the PHP interpreter mode and to generally test your PHP
 installation and to find out a vast amount of information about your PHP
 environment, supported utilities, applications and settings, you create
-a single PHP file containing *only* the following lines;  
+a single PHP file containing _only_ the following lines;
 
     phpinfo();
 
@@ -1846,13 +1842,13 @@ FTP it to your server and open it in a browser.
 **Other useful information**
 
 The following are PHP functions, that when run from a PHP File can
-provide some useful information, *(less than the above option)* many
+provide some useful information, _(less than the above option)_ many
 should run on most hosts, however many hosts disable some of these
 functions for security. No Guarantee's offered...
 
 Again, as above, make a file, name it anything you wish but make sure it
-has the *.php* extension, copy and paste the following lines in to it
-and FTP to your server.  
+has the _.php_ extension, copy and paste the following lines in to it
+and FTP to your server.
 
     <?
     echo "Hostname: ". @php_uname(n) ."";
@@ -1886,25 +1882,25 @@ standalone script that provides purely configuration information.
 target="_blank" rel="nofollow noreferrer noopener">Download HISA
 Here</a>
 
-- <a href="http://forum.joomla.org/viewtopic.php?t=136328"
-  class="external text" target="_blank" rel="noreferrer noopener">Forum
-  Discussion Here</a> (Project is
-  <a href="http://forum.joomla.org/viewtopic.php?p=1804483#p1804483"
-  class="external text" target="_blank"
-  rel="noreferrer noopener"><em>Dormant</em></a> since August 2010)
+-   <a href="http://forum.joomla.org/viewtopic.php?t=136328"
+    class="external text" target="_blank" rel="noreferrer noopener">Forum
+    Discussion Here</a> (Project is
+    <a href="http://forum.joomla.org/viewtopic.php?p=1804483#p1804483"
+    class="external text" target="_blank"
+    rel="noreferrer noopener"><em>Dormant</em></a> since August 2010)
 
 <!-- -->
 
-- <a
-  href="http://www.joomlatutorials.com/joomla-tips-and-tricks/40-miscellaneous-joomla-tips/114-how-to-troubleshoot-a-joomla-installation.html"
-  class="external text" target="_blank"
-  rel="nofollow noreferrer noopener">How to TroubleShoot A Joomla!
-  Installation</a>
+-   <a
+    href="http://www.joomlatutorials.com/joomla-tips-and-tricks/40-miscellaneous-joomla-tips/114-how-to-troubleshoot-a-joomla-installation.html"
+    class="external text" target="_blank"
+    rel="nofollow noreferrer noopener">How to TroubleShoot A Joomla!
+    Installation</a>
 
 Another Indirect method, and possibly not 100% reliable, is that if you
-are unable to make use of *.htaccess* on Linux hosting and Apache based
+are unable to make use of _.htaccess_ on Linux hosting and Apache based
 servers then you are either running in CGI mode or your host has
-disabled the use of *.htaccess* even if your server is running PHP as an
+disabled the use of _.htaccess_ even if your server is running PHP as an
 Apache Module.
 
 **Remove these files immediately after use, the information contained in
@@ -1915,12 +1911,12 @@ configurations, it will help those wishing to cause your site harm**
 
 Running PHP as an Apache module
 
-To configure Apache to load PHP as a module to *parse* your PHP scripts,
-the *httpd.conf* needs to be modified, typically found in *c:\Program
-Files\Apache Group\Apache\conf\\* or */etc/httpd/conf/*.
+To configure Apache to load PHP as a module to _parse_ your PHP scripts,
+the _httpd.conf_ needs to be modified, typically found in _c:\Program
+Files\Apache Group\Apache\conf\\_ or _/etc/httpd/conf/_.
 
 Search for the section of the file that has a series of commented out
-*LoadModule* statements. (Statements prefixed by the hash "#" sign are
+_LoadModule_ statements. (Statements prefixed by the hash "#" sign are
 regarded as having been commented out.) If PHP is running in "Apache
 Module" Mode you should see something similar to the following;
 
@@ -1942,13 +1938,13 @@ LoadModule php4_module "c:/php/php4apache.dll"
 
     or (platform dependant)
 
-LoadModule php4_module C:/php/php4apache.dll  
+LoadModule php4_module C:/php/php4apache.dll
 
-***and***
+**_and_**
 
     AddModule mod_php4.c
 
-*or*  
+_or_
 
     AddModule mod_php5.c
 
@@ -1958,76 +1954,76 @@ LoadModule php4_module C:/php/php4apache.dll
 
     LoadModule php5_module     C:/php/php5apache2.dll
 
-*or (platform dependant)*
+_or (platform dependant)_
 
     LoadModule php5_module     /usr/lib/apache/libphp5.so
 
-**For PHP4**  
+**For PHP4**
 
     LoadModule php4_module     libexec/libphp4.so
 
-*or (platform dependant)*  
-LoadModule php4_module C:/php/php4apache.dll  
+_or (platform dependant)_
+LoadModule php4_module C:/php/php4apache.dll
 
-***and***  
-AddModule mod_php5.c  
+**_and_**
+AddModule mod_php5.c
 
-*or*  
-AddModule mod_php4.c  
+_or_
+AddModule mod_php4.c
 
-**Note:**  
+**Note:**
 Don't worry that you can't find a "mod_php4.c" or "mod_php5.c" file
 anywhere on your system. That directive does not cause Apache to search
 for the file on your system. For the curious, it specifies the order in
-which the various modules are enabled by the Apache server.  
+which the various modules are enabled by the Apache server.
 
-*If you're using Apache 2.x, you do not have to insert the AddModule
+_If you're using Apache 2.x, you do not have to insert the AddModule
 directive. It's no longer needed in that version. Apache 2.x has its own
 internal method of determining the correct order of loading the
-modules.*
+modules._
 
 Now find the "AddType" section in the file, and add the following line
 after the last "AddType" statement:
 
     AddType application/x-httpd-php .php
 
-If you need to support other file types, such as *.php3* and *.phtml*,
+If you need to support other file types, such as _.php3_ and _.phtml_,
 simply add them to the list, like this:
 
     AddType application/x-httpd-php .php3
 
     AddType application/x-httpd-php .phtml
 
-Run a syntax check and if all is ok, restart Apache...  
+Run a syntax check and if all is ok, restart Apache...
 
 **Running PHP as a CGI binary**
 
 To configure PHP to run as a CGI, again you will need to configure the
-*httpd.conf*, but confirm that the above settings are not also
+_httpd.conf_, but confirm that the above settings are not also
 configured, unless you now what you are doing you can generate yourself
 "HTTP 500" errors. Search your Apache configuration file for the
 "ScriptAlias" section.
 
-Add the following line below after the ScriptAlias for "cgi-bin".  
+Add the following line below after the ScriptAlias for "cgi-bin".
 
 **Note:**
 
 The location will depend on where PHP is installed on your system, you
 should substitute the appropriate path in place of "c:/php/" (for
-example, "c:/Program Files/php/").  
+example, "c:/Program Files/php/").
 
-ScriptAlias /php/ "c:/php/"  
+ScriptAlias /php/ "c:/php/"
 
 Apache again needs to be configured for the PHP MIME type. Search for
-the "AddType" section, and add the following line after it:  
+the "AddType" section, and add the following line after it:
 
-AddType application/x-httpd-php .php  
+AddType application/x-httpd-php .php
 
 As in the case of running PHP as an Apache module, you can add whatever
 extensions you want Apache to recognise as PHP scripts, such as:
 
-AddType application/x-httpd-php .php3  
-AddType application/x-httpd-php .phtml  
+AddType application/x-httpd-php .php3
+AddType application/x-httpd-php .phtml
 
 Next, you will need to tell the server to execute the PHP executable
 each time it encounters a PHP script. Add the following below any
@@ -2038,8 +2034,8 @@ Action application/x-httpd-php "/php/php.exe"
 If you notice, we have used the "ScriptAlias" reference, "/php/" portion
 will be recognised as the scriptAlias configured above, this is sort a
 path alias which will correlate to your PHP installation path configured
-previously. In other words, don't put *c:/php/php.exe* or *c:/Program
-Files/php/php.exe* in that directive. Put */php/php.exe*. Apache will
+previously. In other words, don't put _c:/php/php.exe_ or _c:/Program
+Files/php/php.exe_ in that directive. Put _/php/php.exe_. Apache will
 work it out if correctly configured.
 
 **Configuring the Default Index Page**
@@ -2049,21 +2045,21 @@ module or running it as a CGI binary, and has been seen often enough to
 warrant a mention.
 
 If you want to make your PHP script execute as the default page for a
-directory, you have to add another line to the *httpd.conf*. Simply
-search for the line in the file that begins with a *DirectoryIndex* and
-add *index.php* to the list of files on that line. For example, if the
+directory, you have to add another line to the _httpd.conf_. Simply
+search for the line in the file that begins with a _DirectoryIndex_ and
+add _index.php_ to the list of files on that line. For example, if the
 line used to be:
 
 DirectoryIndex index.html
 
-*change it to*
+_change it to_
 
-DirectoryIndex index.html index.php  
-*If you still wish .html files to be executed before .php files*  
-  
-*or*  
-DirectoryIndex index.php index.html  
-*If you wish .php files to be executed before .html files*
+DirectoryIndex index.html index.php
+_If you still wish .html files to be executed before .php files_
+
+_or_
+DirectoryIndex index.php index.html
+_If you wish .php files to be executed before .html files_
 
 The next time you access the site or a directory within a site without a
 filename, Apache will "auto-magically" deliver "index.php" if available,
@@ -2092,11 +2088,11 @@ potentially dangerous functions.
 
 **From the official PHP site**
 
-*"The PHP safe mode is an attempt to solve the shared-server security
+_"The PHP safe mode is an attempt to solve the shared-server security
 problem. It is architecturally incorrect to try to solve this problem at
 the PHP level, but since the alternatives at the web server and OS
 levels aren't realistic, many people, especially ISPs, use safe mode for
-now."* **More Information**
+now."_ **More Information**
 
 1.  <a
     href="http://us3.php.net/manual/en/features.safe-mode.php#ini.safe-mode"
@@ -2139,7 +2135,7 @@ These settings are used on the official demo site
 rel="noreferrer noopener">http://demo.joomla.org</a>
 
 You should also make all files and folders nonwriteable - especially the
-*configuration.php* file. Also recommend you setup an automatic cron job
+_configuration.php_ file. Also recommend you setup an automatic cron job
 that refreshes the database at a set interval (in our case 60mins) from
 a db script.
 
@@ -2205,7 +2201,7 @@ at the top that the site is down for maintenance.
     server, you may have been attacked through another vulnerable site
     on your server. Report this to your host. A reputable host will
     appreciate your efforts in this area.
-8.  **Delete the entire *public_html* directory:** This is the best way
+8.  **Delete the entire _public_html_ directory:** This is the best way
     to guarantee that every potential vulnerability in that site is
     removed.
 9.  **Delete related database records:** This step may only be possible
@@ -2224,8 +2220,8 @@ at the top that the site is down for maintenance.
     only the latest stable versions of all software, and check the List
     of Vulnerable Extensions
 13. **Review security processes:** Follow standard security precautions
-    for important settings in *php.ini*, *globals.php*,
-    configuration.php, *.htaccess*, etc.
+    for important settings in _php.ini_, _globals.php_,
+    configuration.php, _.htaccess_, etc.
 14. **Review backup processes:** If you don't already have one, add a
     dependable backup process to your site administration practices.
 15. **Stay watchful:** Attackers often return repeatedly. Closely
@@ -2297,36 +2293,36 @@ these tools.
 
 **Online MD5 hash creation tools**
 
-- JavaScript MD5 -
-  <a href="https://pajhome.org.uk/crypt/md5/" class="external free"
-  target="_blank"
-  rel="nofollow noreferrer noopener">https://pajhome.org.uk/crypt/md5/</a>
+-   JavaScript MD5 -
+    <a href="https://pajhome.org.uk/crypt/md5/" class="external free"
+    target="_blank"
+    rel="nofollow noreferrer noopener">https://pajhome.org.uk/crypt/md5/</a>
 
 **Free MD5 utilities for download**
 
-- MD5 & Hashing Utilities - <a
-  href="https://www.digital-detective.net/digital-forensic-software/free-tools/"
-  class="external free" target="_blank"
-  rel="nofollow noreferrer noopener">https://www.digital-detective.net/digital-forensic-software/free-tools/</a>
-- SlavaSoft HashCalc -
-  <a href="http://www.slavasoft.com/hashcalc/index.htm"
-  class="external free" target="_blank"
-  rel="nofollow noreferrer noopener">http://www.slavasoft.com/hashcalc/index.htm</a>
+-   MD5 & Hashing Utilities - <a
+    href="https://www.digital-detective.net/digital-forensic-software/free-tools/"
+    class="external free" target="_blank"
+    rel="nofollow noreferrer noopener">https://www.digital-detective.net/digital-forensic-software/free-tools/</a>
+-   SlavaSoft HashCalc -
+    <a href="http://www.slavasoft.com/hashcalc/index.htm"
+    class="external free" target="_blank"
+    rel="nofollow noreferrer noopener">http://www.slavasoft.com/hashcalc/index.htm</a>
 
 **Other MD5 tools**
 
-- There are many free online and downloadable MD5 utilities. Google *MD5
-  hash tool*
+-   There are many free online and downloadable MD5 utilities. Google _MD5
+    hash tool_
 
 ### How do I find exploits using the \*NIX shell?
 
 **Check the active processes**
 
-Use the *ps* command to look for odd or unknown processes. If you aren't
-sure what to look for there, user *netstat -ae \| grep irc* and *netstat
--ea \| grep 666* and look for ports 6666, 6667, 6668, 6669. These are
-common ports used for running IRC bots. They may have the name *irc*
-listed against them, or may have *httpd* or sometimes other regular
+Use the _ps_ command to look for odd or unknown processes. If you aren't
+sure what to look for there, user _netstat -ae \| grep irc_ and _netstat
+-ea \| grep 666_ and look for ports 6666, 6667, 6668, 6669. These are
+common ports used for running IRC bots. They may have the name _irc_
+listed against them, or may have _httpd_ or sometimes other regular
 services names.
 
 **Check crontab**
@@ -2365,28 +2361,6 @@ should investigate immediately. URL encoded text is easy to translate
 using PHP, JavaScript, or one of the many free, online translators.
 
 Here are some trivial, non-functioning examples of URL Encoded text:
-
-<table class="wikitable" data-border="1">
-
-<tbody>
-<tr class="header">
-<th>Original</th>
-<th>URL Encoded</th>
-</tr>
-&#10;<tr class="odd" data-valign="top">
-<td>this line has spaces</td>
-<td>this%20line%20has%20spaces</td>
-</tr>
-<tr class="even" data-valign="top">
-<td>eval(evil_script(<a href="http://www.evilsite/?evilscript.pl"
-class="external free" target="_blank"
-rel="nofollow noreferrer noopener">http://www.evilsite/?evilscript.pl</a>"));</td>
-<td>%65val%28%65%76il_%73cri%70t
-<p>%28%68tt%70%3A//%77%77%77. %65%76il%73ite/%3F%65%76il%73</p>
-cript.%70l%22%29%29%3B</td>
-</tr>
-</tbody>
-</table>
 
 **Resources**
 

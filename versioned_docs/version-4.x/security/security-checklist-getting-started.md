@@ -1,86 +1,5 @@
 <!-- Filename: Security_Checklist/Getting_Started / Display title: Security Checklist/Getting Started -->
 
-<table class="navbox" data-cellspacing="0">
-
-<tbody>
-<tr class="odd">
-<td><table class="nowraplinks navbox-inner" data-cellspacing="0">
-
-<tbody>
-<tr class="header">
-<th colspan="2" class="navbox-title" scope="col">Security Checklist <img
-src="https://docs.joomla.org/images/7/7b/Compat_icon_CMS.png"
-decoding="async" data-file-width="87" data-file-height="17" width="87"
-height="17" alt="Joomla CMS" /></th>
-</tr>
-&#10;<tr class="odd">
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td colspan="2" class="navbox-abovebelow"></td>
-</tr>
-<tr class="odd">
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td colspan="2" class="navbox-list navbox-odd"><table
-class="nowraplinks navbox-subgroup" data-cellspacing="0">
-
-<tbody>
-<tr class="header">
-<th colspan="2" class="navbox-title" scope="col"><em>Articles in this
-series</em></th>
-</tr>
-&#10;<tr class="odd">
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td colspan="2" class="navbox-list navbox-odd"><ul>
-<li><a href="https://docs.joomla.org/Security_Checklist/Getting_Started"
-title="Special:MyLanguage/Security Checklist/Getting Started">Getting
-Started</a></li>
-<li><a
-href="https://docs.joomla.org/Security_Checklist/Hosting_and_Server_Setup"
-title="Special:MyLanguage/Security Checklist/Hosting and Server Setup">Hosting
-and Server Setup</a></li>
-<li><a href="https://docs.joomla.org/Enabling_HTTPS_on_your_site"
-title="Special:MyLanguage/Enabling HTTPS on your site">Enabling HTTPS on
-your site</a></li>
-<li><a
-href="https://docs.joomla.org/Security_Checklist/Where_can_you_learn_more_about_file_permissions%3F"
-title="Special:MyLanguage/Security Checklist/Where can you learn more about file permissions?">Learn
-about file permissions</a></li>
-<li><a
-href="https://docs.joomla.org/Security_Checklist/Testing_and_Development"
-title="Special:MyLanguage/Security Checklist/Testing and Development">Testing
-and Development</a></li>
-<li><a href="https://docs.joomla.org/Security_Checklist/Joomla!_Setup"
-title="Special:MyLanguage/Security Checklist/Joomla! Setup">Joomla!
-Setup</a></li>
-<li><a
-href="https://docs.joomla.org/Security_Checklisthttps://docs.joomla.org/Security%20Checklist/Site%20Administration">Site
-Administration</a></li>
-<li><a
-href="https://docs.joomla.org/Security_Checklisthttps://docs.joomla.org/Security%20Checklist/Site%20Recovery">Site
-Recovery</a></li>
-<li><a
-href="https://docs.joomla.org/Security_Checklist/You_have_been_hacked_or_defaced"
-title="Special:MyLanguage/Security Checklist/You have been hacked or defaced">You
-have been hacked or defaced</a></li>
-</ul></td>
-</tr>
-</tbody>
-</table></td>
-</tr>
-</tbody>
-</table></td>
-</tr>
-</tbody>
-</table>
-
 ### Security matters
 
 Internet security is a fast moving challenge and ever present threat.
@@ -92,10 +11,10 @@ administer a dynamic, 24x7, world-accessible, database-driven,
 interactive, user-authenticated website? Do you have the time and
 resources to respond to the constant flow of new Internet security
 issues? The [Top 10 Stupidest Administrator
-Tricks](https://docs.joomla.org/Top_10_Stupidest_Administrator_Tricks "Top 10 Stupidest Administrator Tricks")
+Tricks](https://docs.joomla.org/Top_10_Stupidest_Administrator_Tricks 'Top 10 Stupidest Administrator Tricks')
 is a comic/tragic look at what can go wrong. Don't learn these tricks
-the hard way! Depending on your own experience, reading the *Stupidest
-Tricks* will either make you laugh or cry. Luckily, there are some
+the hard way! Depending on your own experience, reading the _Stupidest
+Tricks_ will either make you laugh or cry. Luckily, there are some
 well-established principles upon which to base your defensive plans. The
 following checklists point you toward current best practices for Joomla
 security.
@@ -138,7 +57,7 @@ from most catastrophes.
 1.  **Back up early and often:** Set up (and use and test) a regular
     backup and recovery process. When done well, this ensures that you
     can recover from almost any imaginable disaster.
-2.  **Update early and often:** Promptly update to the latest *stable*
+2.  **Update early and often:** Promptly update to the latest _stable_
     version of Joomla! and any installed third-party extensions. This
     ensures that your site is protected from the newest vulnerabilities
     as soon as a fix is released and from the latest attack methods as
@@ -160,7 +79,7 @@ from most catastrophes.
 
 The most helpful posts in the Joomla! Security Forum are converted into
 [Security and Performance
-FAQs](https://docs.joomla.org/Security_and_Performance_FAQs "Security and Performance FAQs").
+FAQs](https://docs.joomla.org/Security_and_Performance_FAQs 'Security and Performance FAQs').
 Many of the items on this list are explained in much greater detail in
 the FAQs.
 
@@ -211,7 +130,7 @@ Security News. There are several ways to subscribe:
     considerable time it takes to learn how to maintain a secure Web
     site, be sure you can consult with someone who has. Read this
     tongue-in-cheek description of the [Top 10 Stupidest Administrator
-    Tricks](https://docs.joomla.org/Top_10_Stupidest_Administrator_Tricks "Top 10 Stupidest Administrator Tricks")
+    Tricks](https://docs.joomla.org/Top_10_Stupidest_Administrator_Tricks 'Top 10 Stupidest Administrator Tricks')
     which illustrates typical, blow-by-blow examples of how to learn Web
     security the hard way.
 

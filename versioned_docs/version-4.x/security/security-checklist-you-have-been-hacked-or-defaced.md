@@ -1,86 +1,5 @@
 <!-- Filename: Security_Checklist/You_have_been_hacked_or_defaced / Display title: Security Checklist/You have been hacked or defaced -->
 
-<table class="navbox" data-cellspacing="0">
-
-<tbody>
-<tr class="odd">
-<td><table class="nowraplinks navbox-inner" data-cellspacing="0">
-
-<tbody>
-<tr class="header">
-<th colspan="2" class="navbox-title" scope="col">Security Checklist <img
-src="https://docs.joomla.org/images/7/7b/Compat_icon_CMS.png"
-decoding="async" data-file-width="87" data-file-height="17" width="87"
-height="17" alt="Joomla CMS" /></th>
-</tr>
-&#10;<tr class="odd">
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td colspan="2" class="navbox-abovebelow"></td>
-</tr>
-<tr class="odd">
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td colspan="2" class="navbox-list navbox-odd"><table
-class="nowraplinks navbox-subgroup" data-cellspacing="0">
-
-<tbody>
-<tr class="header">
-<th colspan="2" class="navbox-title" scope="col"><em>Articles in this
-series</em></th>
-</tr>
-&#10;<tr class="odd">
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td colspan="2" class="navbox-list navbox-odd"><ul>
-<li><a href="https://docs.joomla.org/Security_Checklist/Getting_Started"
-title="Special:MyLanguage/Security Checklist/Getting Started">Getting
-Started</a></li>
-<li><a
-href="https://docs.joomla.org/Security_Checklist/Hosting_and_Server_Setup"
-title="Special:MyLanguage/Security Checklist/Hosting and Server Setup">Hosting
-and Server Setup</a></li>
-<li><a href="https://docs.joomla.org/Enabling_HTTPS_on_your_site"
-title="Special:MyLanguage/Enabling HTTPS on your site">Enabling HTTPS on
-your site</a></li>
-<li><a
-href="https://docs.joomla.org/Security_Checklist/Where_can_you_learn_more_about_file_permissions%3F"
-title="Special:MyLanguage/Security Checklist/Where can you learn more about file permissions?">Learn
-about file permissions</a></li>
-<li><a
-href="https://docs.joomla.org/Security_Checklist/Testing_and_Development"
-title="Special:MyLanguage/Security Checklist/Testing and Development">Testing
-and Development</a></li>
-<li><a href="https://docs.joomla.org/Security_Checklist/Joomla!_Setup"
-title="Special:MyLanguage/Security Checklist/Joomla! Setup">Joomla!
-Setup</a></li>
-<li><a
-href="https://docs.joomla.org/Security_Checklisthttps://docs.joomla.org/Security%20Checklist/Site%20Administration">Site
-Administration</a></li>
-<li><a
-href="https://docs.joomla.org/Security_Checklisthttps://docs.joomla.org/Security%20Checklist/Site%20Recovery">Site
-Recovery</a></li>
-<li><a
-href="https://docs.joomla.org/Security_Checklist/You_have_been_hacked_or_defaced"
-title="Special:MyLanguage/Security Checklist/You have been hacked or defaced">You
-have been hacked or defaced</a></li>
-</ul></td>
-</tr>
-</tbody>
-</table></td>
-</tr>
-</tbody>
-</table></td>
-</tr>
-</tbody>
-</table>
-
 ## You have been hacked/defaced ?
 
 We are sorry for any basic language used in this document. Before you
@@ -93,56 +12,56 @@ read this</a> checklist summary, then use it as a post template.
 
 ### On Line Action List
 
-- Take your [website
-  offline](https://docs.joomla.org/Taking_the_website_temporarily_offline#Using_the_htaccess_method_.28cpanel.29 "Taking the website temporarily offline")
-  (**We recommend the htaccess method**)
+-   Take your [website
+    offline](https://docs.joomla.org/Taking_the_website_temporarily_offline#Using_the_htaccess_method_.28cpanel.29 'Taking the website temporarily offline')
+    (**We recommend the htaccess method**)
 
 <!-- -->
 
-- Run the
-  <a href="https://github.com/ForumPostAssistant/FPA/zipball/en-GB"
-  class="external text" target="_blank"
-  rel="nofollow noreferrer noopener">forum post assistant and security
-  tool</a> The simple Instructions are
-  <a href="http://forum.joomla.org/viewtopic.php?f=621&amp;t=582860"
-  class="external text" target="_blank"
-  rel="noreferrer noopener">available here</a>. More detailed
-  instructions are included in the download package. You will need to
-  unzip this package and upload the fpa-en.php file to your server
-  Joomla root The FPA is also
-  <a href="https://github.com/ForumPostAssistant/FPA/tarball/en-GB"
-  class="external text" target="_blank"
-  rel="nofollow noreferrer noopener">available in a tar.gz package</a>
-  for those who desire or need a unix style package. The fpa-en.php file
-  from the package will need to be uploaded to your server Joomla root.
+-   Run the
+    <a href="https://github.com/ForumPostAssistant/FPA/zipball/en-GB"
+    class="external text" target="_blank"
+    rel="nofollow noreferrer noopener">forum post assistant and security
+    tool</a> The simple Instructions are
+    <a href="http://forum.joomla.org/viewtopic.php?f=621&amp;t=582860"
+    class="external text" target="_blank"
+    rel="noreferrer noopener">available here</a>. More detailed
+    instructions are included in the download package. You will need to
+    unzip this package and upload the fpa-en.php file to your server
+    Joomla root The FPA is also
+    <a href="https://github.com/ForumPostAssistant/FPA/tarball/en-GB"
+    class="external text" target="_blank"
+    rel="nofollow noreferrer noopener">available in a tar.gz package</a>
+    for those who desire or need a unix style package. The fpa-en.php file
+    from the package will need to be uploaded to your server Joomla root.
 
 <!-- -->
 
-- Scan all machines with FTP, Joomla super admin, and Joomla admin
-  access for malware, virus, trojans, spyware, etc. (see [Local
-  Security](#Local_Security) below)
+-   Scan all machines with FTP, Joomla super admin, and Joomla admin
+    access for malware, virus, trojans, spyware, etc. (see [Local
+    Security](#Local_Security) below)
 
 <!-- -->
 
-- Ensure you have downloaded the **latest version** of
-  <a href="http://www.joomla.org/download.html" class="external text"
-  target="_blank" rel="noreferrer noopener">Joomla</a> for the series of
-  Joomla used on the site. (see [Incompatible
-  Versions](#incompatible_versions) below)
+-   Ensure you have downloaded the **latest version** of
+    <a href="http://www.joomla.org/download.html" class="external text"
+    target="_blank" rel="noreferrer noopener">Joomla</a> for the series of
+    Joomla used on the site. (see [Incompatible
+    Versions](#incompatible_versions) below)
 
 <!-- -->
 
-- **Notify your host** and work with them to clean up the site, and to
-  make sure there are no back doors to your site.
+-   **Notify your host** and work with them to clean up the site, and to
+    make sure there are no back doors to your site.
 
 <!-- -->
 
-- Review
-  <a href="http://vel.joomla.org/" class="external text" target="_blank"
-  rel="noreferrer noopener">Vulnerable Extensions List</a> to see if you
-  have any vulnerable extensions and deal with them. A clue to any
-  extensions being targeted is your logs file. Here is an example of
-  what to look for,
+-   Review
+    <a href="http://vel.joomla.org/" class="external text" target="_blank"
+    rel="noreferrer noopener">Vulnerable Extensions List</a> to see if you
+    have any vulnerable extensions and deal with them. A clue to any
+    extensions being targeted is your logs file. Here is an example of
+    what to look for,
 
 <!-- -->
 
@@ -152,40 +71,40 @@ or
 
     ../../../../../../../../../../../../../../../../proc/self/environ
 
-- Review and action [Security
-  Checklist](https://docs.joomla.org/Security_Checklist "Security Checklist")
-  to make sure you've gone through all of the steps (please note some
-  steps are optional, but please review them all).
+-   Review and action [Security
+    Checklist](https://docs.joomla.org/Security_Checklist 'Security Checklist')
+    to make sure you've gone through all of the steps (please note some
+    steps are optional, but please review them all).
 
 <!-- -->
 
-- **Change all passwords** and if possible user names for the domains
-  control panel, mysql, FTP, [Joomla! Super
-  Admin](https://docs.joomla.org/Why_should_you_immediately_change_the_name_of_the_default_admin_user%3F "Why should you immediately change the name of the default admin user?"),
-  and Joomla! Admin password; do change them often. Passwords should be
-  at least 12 mixed alphanumeric characters and contain no common word
-  phrases.
-- Do not use the standard Admin user, [disable
-  it](https://docs.joomla.org/Why_should_you_immediately_change_the_name_of_the_default_admin_user%3F "Why should you immediately change the name of the default admin user?").
-  If you need to reset your admin password, see <a
-  href="https://docs.joomla.org/How_do_you_recover_your_admin_password%3F"
-  class="mw-redirect"
-  title="How do you recover your admin password?">these instructions</a>.
+-   **Change all passwords** and if possible user names for the domains
+    control panel, mysql, FTP, [Joomla! Super
+    Admin](https://docs.joomla.org/Why_should_you_immediately_change_the_name_of_the_default_admin_user%3F 'Why should you immediately change the name of the default admin user?'),
+    and Joomla! Admin password; do change them often. Passwords should be
+    at least 12 mixed alphanumeric characters and contain no common word
+    phrases.
+-   Do not use the standard Admin user, [disable
+    it](https://docs.joomla.org/Why_should_you_immediately_change_the_name_of_the_default_admin_user%3F 'Why should you immediately change the name of the default admin user?').
+    If you need to reset your admin password, see <a
+    href="https://docs.joomla.org/How_do_you_recover_your_admin_password%3F"
+    class="mw-redirect"
+    title="How do you recover your admin password?">these instructions</a>.
 
 <!-- -->
 
-- **Delete and Replace** all templates and files with clean copies,
-- **Check** and/or replace all .pdf, image, photo files for exploits.
-  Delete any that are suspicious
-- Check you server logs for IP's calling suspicious files or attempting
-  POST commands to non-form's
-- Use proper permissions on files and directories. They **should never
-  be 777<sup>[\[1\]](#cite_note-1)</sup>, but ideal is 644 for files and
-  755 folders**.
-- Disable <a
-  href="http://docs.cpanel.net/twiki/bin/view/AllDocumentation/CpanelDocs/AnonymousFTP"
-  class="external text" target="_blank"
-  rel="nofollow noreferrer noopener">anonymous</a> FTP
+-   **Delete and Replace** all templates and files with clean copies,
+-   **Check** and/or replace all .pdf, image, photo files for exploits.
+    Delete any that are suspicious
+-   Check you server logs for IP's calling suspicious files or attempting
+    POST commands to non-form's
+-   Use proper permissions on files and directories. They **should never
+    be 777<sup>[\[1\]](#cite_note-1)</sup>, but ideal is 644 for files and
+    755 folders**.
+-   Disable <a
+    href="http://docs.cpanel.net/twiki/bin/view/AllDocumentation/CpanelDocs/AnonymousFTP"
+    class="external text" target="_blank"
+    rel="nofollow noreferrer noopener">anonymous</a> FTP
 
 ## chmod and cron
 
@@ -240,8 +159,8 @@ file within the open folder.
 
 especially in your images folder
 
-- Make sure that is in a htaccess file in a directory that will not run
-  any scripts or remove the extensions as required
+-   Make sure that is in a htaccess file in a directory that will not run
+    any scripts or remove the extensions as required
 
 Do check with your hosting provider to see if they have purposely
 secured the server your site is on; and that they **or you** perform
@@ -251,157 +170,157 @@ care
 
 ## A Safe route for disaster relief
 
-- save the configuration.php file and your images and personal files one
-  by one, (not the folder as it may contain unwanted files)
-- wipe the entire folder where Joomla! is installed
-- upload a new clean full package latest version of joomla 1.5.x or
-  Joomla 2.5.x, joomla 3.x (minus the install
-  folder)<sup>[\[2\]](#cite_note-2)</sup>
-- reupload your configuration file & images.
-- reupload or reinstall the latest versions of your extensions ,
-  templates (even better is to use original clean copies to ensure that
-  the hacker/defacer did not leave any shell script files in your site)
+-   save the configuration.php file and your images and personal files one
+    by one, (not the folder as it may contain unwanted files)
+-   wipe the entire folder where Joomla! is installed
+-   upload a new clean full package latest version of joomla 1.5.x or
+    Joomla 2.5.x, joomla 3.x (minus the install
+    folder)<sup>[\[2\]](#cite_note-2)</sup>
+-   reupload your configuration file & images.
+-   reupload or reinstall the latest versions of your extensions ,
+    templates (even better is to use original clean copies to ensure that
+    the hacker/defacer did not leave any shell script files in your site)
 
 To do this will take your site off line for around 15 minutes. To track
 down your hacked/defaced html may take hours or even longer.
 
 ### Local Security
 
-- Don't store user name/password in ftp program
-  - Use a password manager such as the free
-    <a href="http://keepass.info/" class="external text" target="_blank"
-    rel="nofollow noreferrer noopener">keepass</a>
+-   Don't store user name/password in ftp program
+    -   Use a password manager such as the free
+        <a href="http://keepass.info/" class="external text" target="_blank"
+        rel="nofollow noreferrer noopener">keepass</a>
 
 <!-- -->
 
-- Scan all machines with FTP, Joomla super admin, and Joomla admin
-  access for malware, virus, trojans, spyware, etc.
+-   Scan all machines with FTP, Joomla super admin, and Joomla admin
+    access for malware, virus, trojans, spyware, etc.
 
 <!-- -->
 
-- Several packages available are
-  - <a href="http://www.eset.com/" class="external text" target="_blank"
-    rel="nofollow noreferrer noopener">ENOD32</a> from eSet
-  - <a href="http://www.safer-networking.org/" class="external text"
-    target="_blank" rel="nofollow noreferrer noopener">Spybot Search and
-    Destroy</a>
-  - <a href="http://www.malwarebytes.org/" class="external text"
-    target="_blank" rel="nofollow noreferrer noopener">Malwarebytes</a>
-  - <a href="http://www.microsoft.com/security/" class="external text"
-    target="_blank" rel="nofollow noreferrer noopener">Microsoft Malicious
-    Software Removal Tool</a>
-  - <a
-    href="http://www.free-av.com/de/tools/12/avira_antivir_rescue_system.html"
-    class="external text" target="_blank"
-    rel="nofollow noreferrer noopener">Linux AntiVirus boot cd</a>
-  - <a href="http://www.javacoolsoftware.com/spywareblaster.html"
-    class="external text" target="_blank"
-    rel="nofollow noreferrer noopener">spyware blaster</a>
-  - <a href="http://www.siteadvisor.com/" class="external text"
-    target="_blank" rel="nofollow noreferrer noopener">siteadvisor</a>
-- Consider the
-  <a href="http://ubcd4win.com/" class="external text" target="_blank"
-  rel="nofollow noreferrer noopener">Ultimate Boot CD for Windows</a>
-  used for repairing, restoring, or diagnosing almost any home computer
-  problem
+-   Several packages available are
+    -   <a href="http://www.eset.com/" class="external text" target="_blank"
+        rel="nofollow noreferrer noopener">ENOD32</a> from eSet
+    -   <a href="http://www.safer-networking.org/" class="external text"
+        target="_blank" rel="nofollow noreferrer noopener">Spybot Search and
+        Destroy</a>
+    -   <a href="http://www.malwarebytes.org/" class="external text"
+        target="_blank" rel="nofollow noreferrer noopener">Malwarebytes</a>
+    -   <a href="http://www.microsoft.com/security/" class="external text"
+        target="_blank" rel="nofollow noreferrer noopener">Microsoft Malicious
+        Software Removal Tool</a>
+    -   <a
+        href="http://www.free-av.com/de/tools/12/avira_antivir_rescue_system.html"
+        class="external text" target="_blank"
+        rel="nofollow noreferrer noopener">Linux AntiVirus boot cd</a>
+    -   <a href="http://www.javacoolsoftware.com/spywareblaster.html"
+        class="external text" target="_blank"
+        rel="nofollow noreferrer noopener">spyware blaster</a>
+    -   <a href="http://www.siteadvisor.com/" class="external text"
+        target="_blank" rel="nofollow noreferrer noopener">siteadvisor</a>
+-   Consider the
+    <a href="http://ubcd4win.com/" class="external text" target="_blank"
+    rel="nofollow noreferrer noopener">Ultimate Boot CD for Windows</a>
+    used for repairing, restoring, or diagnosing almost any home computer
+    problem
 
 ### Other Considerations
 
-- Do not use the standard jos\_ table prefix and avoid one click
-  installers where possible
+-   Do not use the standard jos\_ table prefix and avoid one click
+    installers where possible
 
 <!-- -->
 
-- Set the
-  <a href="http://feeds.joomla.org/JoomlaSecurityNews?format=xml"
-  class="external text" target="_blank" rel="noreferrer noopener">joomla
-  security newsfeed</a> as the main top module in your joomla admin
-  control panel. <a
-  href="https://docs.joomla.org/Screen.modulesadministrator.edit.15#Feed_Display"
-  class="mw-redirect" title="Screen.modulesadministrator.edit.15">Set up
-  the Security Newsfeed</a>
-  - <a
-    href="https://docs.joomla.org/Screen.modulesadministrator.edit.15#How_to_access"
-    class="mw-redirect" title="Screen.modulesadministrator.edit.15">Add the
-    Admin Feed Display Module</a> if it is missing. Enable it to the
-    first place on your sites back end control panel.
+-   Set the
+    <a href="http://feeds.joomla.org/JoomlaSecurityNews?format=xml"
+    class="external text" target="_blank" rel="noreferrer noopener">joomla
+    security newsfeed</a> as the main top module in your joomla admin
+    control panel. <a
+    href="https://docs.joomla.org/Screen.modulesadministrator.edit.15#Feed_Display"
+    class="mw-redirect" title="Screen.modulesadministrator.edit.15">Set up
+    the Security Newsfeed</a>
+    -   <a
+        href="https://docs.joomla.org/Screen.modulesadministrator.edit.15#How_to_access"
+        class="mw-redirect" title="Screen.modulesadministrator.edit.15">Add the
+        Admin Feed Display Module</a> if it is missing. Enable it to the
+        first place on your sites back end control panel.
 
 <!-- -->
 
-- Consider adding a
-  <a href="http://forum.joomla.org/viewtopic.php?p=1568940#p1568940"
-  class="external text" target="_blank" rel="noreferrer noopener">bot
-  block list</a> to your .htaccess file
+-   Consider adding a
+    <a href="http://forum.joomla.org/viewtopic.php?p=1568940#p1568940"
+    class="external text" target="_blank" rel="noreferrer noopener">bot
+    block list</a> to your .htaccess file
 
 <!-- -->
 
-- Use <a href="http://en.wikipedia.org/wiki/SSH_file_transfer_protocol"
-  class="external text" target="_blank"
-  rel="nofollow noreferrer noopener">sFTP</a> instead of FTP where
-  possible
+-   Use <a href="http://en.wikipedia.org/wiki/SSH_file_transfer_protocol"
+    class="external text" target="_blank"
+    rel="nofollow noreferrer noopener">sFTP</a> instead of FTP where
+    possible
 
 <!-- -->
 
-- Do not enable or use <a
-  href="http://en.wikipedia.org/wiki/File_Transfer_Protocol#Anonymous_FTP"
-  class="external text" target="_blank"
-  rel="nofollow noreferrer noopener">anonymous ftp</a> accounts for any
-  reason.
+-   Do not enable or use <a
+    href="http://en.wikipedia.org/wiki/File_Transfer_Protocol#Anonymous_FTP"
+    class="external text" target="_blank"
+    rel="nofollow noreferrer noopener">anonymous ftp</a> accounts for any
+    reason.
 
 <!-- -->
 
-- Use a server that has
-  <a href="http://www.modsecurity.org/" class="external text"
-  target="_blank" rel="nofollow noreferrer noopener">mod_security</a>
-  installed properly
+-   Use a server that has
+    <a href="http://www.modsecurity.org/" class="external text"
+    target="_blank" rel="nofollow noreferrer noopener">mod_security</a>
+    installed properly
 
 <!-- -->
 
-- Check for any added sub domains and/or added directories
+-   Check for any added sub domains and/or added directories
 
 <!-- -->
 
-- Check for any
-  <a href="http://en.wikipedia.org/wiki/Common_Gateway_Interface"
-  class="external text" target="_blank"
-  rel="nofollow noreferrer noopener">cgi scripts</a>
+-   Check for any
+    <a href="http://en.wikipedia.org/wiki/Common_Gateway_Interface"
+    class="external text" target="_blank"
+    rel="nofollow noreferrer noopener">cgi scripts</a>
 
 <!-- -->
 
-- Check
-  <a href="http://en.wikipedia.org/wiki/Cron" class="external text"
-  target="_blank" rel="nofollow noreferrer noopener">cron</a> for any
-  cron jobs not set up by domain administrator
+-   Check
+    <a href="http://en.wikipedia.org/wiki/Cron" class="external text"
+    target="_blank" rel="nofollow noreferrer noopener">cron</a> for any
+    cron jobs not set up by domain administrator
 
 <!-- -->
 
-- Download and <sup>[\[3\]](#cite_note-3)</sup>
+-   Download and <sup>[\[3\]](#cite_note-3)</sup>
 
 <!-- -->
 
-- Deny any IP's that you got to the IP ban on your site but it may
-  belong to a proxy site.
+-   Deny any IP's that you got to the IP ban on your site but it may
+    belong to a proxy site.
 
 <!-- -->
 
     Was your site hacked in the past and proper site sanitation not used to remove actual
     (and hidden) hack thus leaving a backdoor for reinfection.
 
-- Consider removing "<a
-  href="https://docs.joomla.org/How_do_you_remove_or_change_the_%22Welcome_to_the_Frontpage%22_title%3F"
-  class="mw-redirect"
-  title="How do you remove or change the &quot;Welcome to the Frontpage&quot; title?">Welcome
-  to the front page</a>" to reduce <a
-  href="http://www.google.co.uk/search?q=intext%3A+welcome+to+the+front+page+joomla&amp;"
-  class="external text" target="_blank"
-  rel="nofollow noreferrer noopener">search engine attacks</a>.
+-   Consider removing "<a
+    href="https://docs.joomla.org/How_do_you_remove_or_change_the_%22Welcome_to_the_Frontpage%22_title%3F"
+    class="mw-redirect"
+    title="How do you remove or change the &quot;Welcome to the Frontpage&quot; title?">Welcome
+    to the front page</a>" to reduce <a
+    href="http://www.google.co.uk/search?q=intext%3A+welcome+to+the+front+page+joomla&amp;"
+    class="external text" target="_blank"
+    rel="nofollow noreferrer noopener">search engine attacks</a>.
 
 <!-- -->
 
-- Completely remove/uninstall, don't unpublish unused or vulnerable
-  extensions. [Un-publishing a vulnerable extension will not protect
-  your
-  site.](https://docs.joomla.org/Why_isn%27t_un-publishing_a_vulnerable_extension_enough_to_protect_your_site%3F "Why isn't un-publishing a vulnerable extension enough to protect your site?")
+-   Completely remove/uninstall, don't unpublish unused or vulnerable
+    extensions. [Un-publishing a vulnerable extension will not protect
+    your
+    site.](https://docs.joomla.org/Why_isn%27t_un-publishing_a_vulnerable_extension_enough_to_protect_your_site%3F "Why isn't un-publishing a vulnerable extension enough to protect your site?")
 
 ### Malicious Code or Odd Links appearing on your site
 
@@ -418,7 +337,7 @@ every web page ( I would imagine though not confirmed, if infected page
 is edited then saved it will also be in database) on a site. Script
 changes every time it is accessed. It has been seen on phpBB, SMF and
 vBulletin forums, on WordPress 2.7.1 blogs, on proprietary PHP sites.
-The script starts with *(function(* and has no name and is obfusticated.
+The script starts with _(function(_ and has no name and is obfusticated.
 A common Gumblar version breaks sites due to a bug in script.
 
 **iFrames**

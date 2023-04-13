@@ -1,57 +1,5 @@
 <!-- Filename: Monitoring_SEO / Display title: Monitoring SEO -->
 
-<table data-cellspacing="1">
-
-<tbody>
-<tr class="odd">
-<td class="home-tile"><strong>Monitoring for Problems</strong> <img
-src="https://docs.joomla.org/images/thumb/9/9b/Nuvola_arrow_right.png/30px-Nuvola_arrow_right.png"
-decoding="async"
-srcset="https://docs.joomla.org/images/thumb/9/9b/Nuvola_arrow_right.png/45px-Nuvola_arrow_right.png 1.5x, https://docs.joomla.org/images/thumb/9/9b/Nuvola_arrow_right.png/60px-Nuvola_arrow_right.png 2x"
-data-file-width="200" data-file-height="200" width="30" height="30"
-alt="Nuvola arrow right.png" />
-<a href="https://docs.joomla.org/Managing_404_Errors"
-title="Managing 404 Errors">404 errors</a>
-<a href="https://docs.joomla.org/Monitoring_Server_Health"
-title="Monitoring Server Health">Monitoring server health</a>
-<a href="https://docs.joomla.org/Alerting_about_errors"
-title="Alerting about errors">Getting alerted about errors</a></td>
-<td></td>
-<td class="home-tile"><strong>Monitoring for Performance</strong> <img
-src="https://docs.joomla.org/images/thumb/3/3b/Star_icon.png/30px-Star_icon.png"
-decoding="async"
-srcset="https://docs.joomla.org/images/thumb/3/3b/Star_icon.png/45px-Star_icon.png 1.5x, https://docs.joomla.org/images/thumb/3/3b/Star_icon.png/60px-Star_icon.png 2x"
-data-file-width="128" data-file-height="128" width="30" height="30"
-alt="Star icon.png" />
-<a href="https://docs.joomla.org/Monitoring_Site_Speed"
-title="Monitoring Site Speed">Monitoring site speed</a>
-<a href="https://docs.joomla.org/Tracking_conversions"
-title="Tracking conversions">Tracking 'conversions'</a>
-<a href="https://docs.joomla.org/Analysing_User_Experience"
-title="Analysing User Experience">Analysing User Experience</a></td>
-<td></td>
-<td class="home-tile"><strong>Monitoring for Prominence &amp;
-People</strong> <img
-src="https://docs.joomla.org/images/thumb/2/28/Advanced_icon.png/40px-Advanced_icon.png"
-decoding="async"
-srcset="https://docs.joomla.org/images/thumb/2/28/Advanced_icon.png/60px-Advanced_icon.png 1.5x, https://docs.joomla.org/images/thumb/2/28/Advanced_icon.png/80px-Advanced_icon.png 2x"
-data-file-width="128" data-file-height="128" width="40" height="40"
-alt="Advanced icon.png" />
-<a href="https://docs.joomla.org/Monitoring_Brand_Mentions"
-title="Monitoring Brand Mentions">Monitoring brand mentions</a>
-<a
-href="https://docs.joomla.org/index.php?title=Tracking_Topics_Of_Interest&amp;action=edit&amp;redlink=1"
-class="new"
-title="Tracking Topics Of Interest (page does not exist)">Tracking
-topics of interest</a>
-<a
-href="https://docs.joomla.org/index.php?title=Managing_Social_SEO&amp;action=edit&amp;redlink=1"
-class="new" title="Managing Social SEO (page does not exist)">Managing
-social SEO</a></td>
-</tr>
-</tbody>
-</table>
-
 ## Why Monitor Your Site?
 
 Monitoring your site is important to ensure that you notice developing
@@ -134,7 +82,7 @@ wish to use to create the filter using a drop-down select box and
 entering values. (If you're comfortable with regular expressions, use
 them.) For example, we might set up a segment:
 
-Show me *visits* where keywords is *equal to 2*.
+Show me _visits_ where keywords is _equal to 2_.
 
 This would filter the data we are viewing to show all visits where two
 keywords were used.
@@ -219,55 +167,3 @@ all the metrics relating to the marketing for your website. Then you
 could click onto another dashboard and see the metrics relating to
 sales, and another to see social interaction, another to look at
 content.
-
-<table data-cellspacing="1">
-
-<tbody>
-<tr class="odd">
-<td class="home-tile"><strong>Monitoring for Problems</strong> <img
-src="https://docs.joomla.org/images/thumb/9/9b/Nuvola_arrow_right.png/30px-Nuvola_arrow_right.png"
-decoding="async"
-srcset="https://docs.joomla.org/images/thumb/9/9b/Nuvola_arrow_right.png/45px-Nuvola_arrow_right.png 1.5x, https://docs.joomla.org/images/thumb/9/9b/Nuvola_arrow_right.png/60px-Nuvola_arrow_right.png 2x"
-data-file-width="200" data-file-height="200" width="30" height="30"
-alt="Nuvola arrow right.png" />
-<a href="https://docs.joomla.org/Managing_404_Errors"
-title="Managing 404 Errors">404 errors</a>
-<a href="https://docs.joomla.org/Monitoring_Server_Health"
-title="Monitoring Server Health">Monitoring server health</a>
-<a href="https://docs.joomla.org/Alerting_about_errors"
-title="Alerting about errors">Getting alerted about errors</a></td>
-<td></td>
-<td class="home-tile"><strong>Monitoring for Performance</strong> <img
-src="https://docs.joomla.org/images/thumb/3/3b/Star_icon.png/30px-Star_icon.png"
-decoding="async"
-srcset="https://docs.joomla.org/images/thumb/3/3b/Star_icon.png/45px-Star_icon.png 1.5x, https://docs.joomla.org/images/thumb/3/3b/Star_icon.png/60px-Star_icon.png 2x"
-data-file-width="128" data-file-height="128" width="30" height="30"
-alt="Star icon.png" />
-<a href="https://docs.joomla.org/Monitoring_Site_Speed"
-title="Monitoring Site Speed">Monitoring site speed</a>
-<a href="https://docs.joomla.org/Tracking_conversions"
-title="Tracking conversions">Tracking 'conversions'</a>
-<a href="https://docs.joomla.org/Analysing_User_Experience"
-title="Analysing User Experience">Analysing User Experience</a></td>
-<td></td>
-<td class="home-tile"><strong>Monitoring for Prominence &amp;
-People</strong> <img
-src="https://docs.joomla.org/images/thumb/2/28/Advanced_icon.png/40px-Advanced_icon.png"
-decoding="async"
-srcset="https://docs.joomla.org/images/thumb/2/28/Advanced_icon.png/60px-Advanced_icon.png 1.5x, https://docs.joomla.org/images/thumb/2/28/Advanced_icon.png/80px-Advanced_icon.png 2x"
-data-file-width="128" data-file-height="128" width="40" height="40"
-alt="Advanced icon.png" />
-<a href="https://docs.joomla.org/Monitoring_Brand_Mentions"
-title="Monitoring Brand Mentions">Monitoring brand mentions</a>
-<a
-href="https://docs.joomla.org/index.php?title=Tracking_Topics_Of_Interest&amp;action=edit&amp;redlink=1"
-class="new"
-title="Tracking Topics Of Interest (page does not exist)">Tracking
-topics of interest</a>
-<a
-href="https://docs.joomla.org/index.php?title=Managing_Social_SEO&amp;action=edit&amp;redlink=1"
-class="new" title="Managing Social SEO (page does not exist)">Managing
-social SEO</a></td>
-</tr>
-</tbody>
-</table>

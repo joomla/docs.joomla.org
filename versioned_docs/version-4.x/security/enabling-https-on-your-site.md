@@ -1,86 +1,5 @@
 <!-- Filename: Enabling_HTTPS_on_your_site / Display title: Enabling HTTPS on your site -->
 
-<table class="navbox" data-cellspacing="0">
-
-<tbody>
-<tr class="odd">
-<td><table class="nowraplinks navbox-inner" data-cellspacing="0">
-
-<tbody>
-<tr class="header">
-<th colspan="2" class="navbox-title" scope="col">Security Checklist <img
-src="https://docs.joomla.org/images/7/7b/Compat_icon_CMS.png"
-decoding="async" data-file-width="87" data-file-height="17" width="87"
-height="17" alt="Joomla CMS" /></th>
-</tr>
-&#10;<tr class="odd">
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td colspan="2" class="navbox-abovebelow"></td>
-</tr>
-<tr class="odd">
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td colspan="2" class="navbox-list navbox-odd"><table
-class="nowraplinks navbox-subgroup" data-cellspacing="0">
-
-<tbody>
-<tr class="header">
-<th colspan="2" class="navbox-title" scope="col"><em>Articles in this
-series</em></th>
-</tr>
-&#10;<tr class="odd">
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td colspan="2" class="navbox-list navbox-odd"><ul>
-<li><a href="https://docs.joomla.org/Security_Checklist/Getting_Started"
-title="Special:MyLanguage/Security Checklist/Getting Started">Getting
-Started</a></li>
-<li><a
-href="https://docs.joomla.org/Security_Checklist/Hosting_and_Server_Setup"
-title="Special:MyLanguage/Security Checklist/Hosting and Server Setup">Hosting
-and Server Setup</a></li>
-<li><a href="https://docs.joomla.org/Enabling_HTTPS_on_your_site"
-title="Special:MyLanguage/Enabling HTTPS on your site">Enabling HTTPS on
-your site</a></li>
-<li><a
-href="https://docs.joomla.org/Security_Checklist/Where_can_you_learn_more_about_file_permissions%3F"
-title="Special:MyLanguage/Security Checklist/Where can you learn more about file permissions?">Learn
-about file permissions</a></li>
-<li><a
-href="https://docs.joomla.org/Security_Checklist/Testing_and_Development"
-title="Special:MyLanguage/Security Checklist/Testing and Development">Testing
-and Development</a></li>
-<li><a href="https://docs.joomla.org/Security_Checklist/Joomla!_Setup"
-title="Special:MyLanguage/Security Checklist/Joomla! Setup">Joomla!
-Setup</a></li>
-<li><a
-href="https://docs.joomla.org/Security_Checklisthttps://docs.joomla.org/Security%20Checklist/Site%20Administration">Site
-Administration</a></li>
-<li><a
-href="https://docs.joomla.org/Security_Checklisthttps://docs.joomla.org/Security%20Checklist/Site%20Recovery">Site
-Recovery</a></li>
-<li><a
-href="https://docs.joomla.org/Security_Checklist/You_have_been_hacked_or_defaced"
-title="Special:MyLanguage/Security Checklist/You have been hacked or defaced">You
-have been hacked or defaced</a></li>
-</ul></td>
-</tr>
-</tbody>
-</table></td>
-</tr>
-</tbody>
-</table></td>
-</tr>
-</tbody>
-</table>
-
 ## What is SSL/TLS?
 
 Transport Layer Security (TLS) is the successor to Secure Sockets Layer
@@ -162,8 +81,8 @@ below into a .htaccess file placed in that specific folder:
 
 Code:
 
-    RewriteEngine On 
-    RewriteCond %{REQUEST_URI} folder 
+    RewriteEngine On
+    RewriteCond %{REQUEST_URI} folder
     RewriteRule ^(.*)$ https://www.example.com/folder/$1 [R,L]
 
 Make sure you change the folder reference to the actual folder name.
