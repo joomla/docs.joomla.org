@@ -13,7 +13,6 @@ steps:
     commands:
       - npm install
       - npm run write-translations
-      - npm run crowdin download
       - npm run build
 
   - name: translations
