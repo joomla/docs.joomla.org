@@ -397,8 +397,8 @@ Never trust user input.
 Register Globals has been officially deprecated in PHP5, and beginning
 with PHP6 will no longer even exist. Good riddance!
 
-Joomla 1.0.x uses RG_Emulation functions which are somewhat safer than
-standard PHP _register_globals_, but it's still best not to allow any
+Joomla 1.0.x uses RG*Emulation functions which are somewhat safer than
+standard PHP \_register_globals*, but it's still best not to allow any
 form of automatic variable assignments. Note that poorly-written
 extensions may fail with _register_globals_ turned off. Such failure is
 a sign that the extension does not check user input correctly. Best
@@ -1432,8 +1432,8 @@ possibly have chosen other extensions. Check with your host.
 
 1\. Check to be sure your site is configured to use _.htaccess_ files.
 
-2\. Make a backup of the _.htaccess_ file in your root public_http
-directory. If you don't have a _.htaccess_ file at this location, create
+2\. Make a backup of the _.htaccess_ file in your root public*http
+directory. If you don't have a *.htaccess\_ file at this location, create
 one now.
 
 3\. There are various ways to set the command, depending on your server
@@ -1799,9 +1799,7 @@ CGI Mode on the other hand, is more secure because the server now
 manages and controls access to the binaries. PHP can now run as your own
 user rather than the generic Apache user. This means you can put your
 database passwords in a file readable only by you and your PHP scripts
-can still access it! The "Group" and "Other" permissions (refer
-<a href="component/option,com_easyfaq/task,view/id,73/Itemid,268/"
-target="_blank">Permissions FAQ</a>
+can still access it! The "Group" and "Other" permissions.
 
 can now be more restrictive. CGI mode is also claimed to be more
 flexible in many respects as you should now not see, with phpSuExec (
