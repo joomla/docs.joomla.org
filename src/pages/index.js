@@ -12,12 +12,7 @@ function HomepageHeader() {
     <div className={clsx('hero hero--primary margin-bottom--xl', styles.heroBanner)}>
       <div className='container'>
         <h1 className='hero__title'>{siteConfig.title}</h1>
-        <p className='hero__subtitle'>
-          <Translate
-            id='homepage.TagLineText'
-            description='Tagline intro text in the homepage'
-          />
-        </p>
+        <p className='hero__subtitle'>{siteConfig.tagline}</p>
         <div className='indexCtas'>
           <a className='button button--secondary' href='/docs'>
             <Translate id='homepage.GetStarted.Button' description='Get started button text'>
