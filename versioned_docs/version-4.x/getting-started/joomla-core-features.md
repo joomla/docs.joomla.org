@@ -256,4 +256,8 @@ forgotten can be automated with the Task Scheduler.
 
 ## Guided Tours
 
-Get started or help new users get started with a range of guided tours that will take a user through the necessary steps to carry out common tasks in Joomla! Add additional guided tours step by step.
+Get started or help new users get started with a range of guided tours that will take a user through the necessary steps to carry out common tasks in Joomla!
+
+Add additional guided tours step by step.
+
+
