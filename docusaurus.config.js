@@ -218,7 +218,7 @@ const config = {
       }),
     ],
     [
-      require.resolve('@anmode/docusaurus-search-local'),
+      require.resolve('@cmfcmf/docusaurus-search-local'),
       {
         // whether to index blog pages
         indexBlog: false,
