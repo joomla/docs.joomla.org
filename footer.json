@@ -1,0 +1,84 @@
+{
+  "style": ["dark"],
+  "links": [
+    {
+      "title": "Joomla!",
+      "items": [
+        {
+          "label": "Home",
+          "to": "https://www.joomla.org"
+        },
+        {
+          "label": "About",
+          "to": "https://www.joomla.org/about-joomla.html"
+        },
+        {
+          "label": "Community",
+          "to": "https://community.joomla.org"
+        },
+        {
+          "label": "Forum",
+          "to": "https://forum.joomla.org"
+        },
+        {
+          "label": "Extensions",
+          "to": "https://extensions.joomla.org"
+        },
+        {
+          "label": "Accessibility Statement",
+          "to": "https://www.joomla.org/accessibility-statement.html"
+        },
+        {
+          "label": "Privacy Policy",
+          "to": "https://www.joomla.org/privacy-policy.html"
+        },
+        {
+          "label": "Cookie Policy",
+          "to": "https://www.joomla.org/cookie-policy.html"
+        },
+        {
+          "label": "Sponsor Joomla! with $5",
+          "to": "https://www.joomla.org/sponsor-joomla.html"
+        }
+      ]
+    },
+    {
+      "title": "Connect",
+      "items": [
+        {
+          "label": "Twitter",
+          "to": "https://twitter.com/joomla"
+        },
+        {
+          "label": "Facebook",
+          "to": "https://www.facebook.com/joomla"
+        },
+        {
+          "label": "YouTube",
+          "to": "https://www.youtube.com/user/joomla"
+        },
+        {
+          "label": "LinkedIn",
+          "to": "https://www.linkedin.com/company/joomla"
+        },
+        {
+          "label": "Pinterest",
+          "to": "https://www.pinterest.com/joomla"
+        },
+        {
+          "label": "Instagram",
+          "to": "https://www.instagram.com/joomlaofficial/"
+        },
+        {
+          "label": "GitHub",
+          "to": "https://github.com/joomla"
+        }
+      ]
+    }
+  ],
+  "style": "dark",
+"copyright":
+  "The content is available under the <a href=\"https://docs.joomla.org/JEDL\">Joomla! EDL</a> license, unless otherwise stated."
+
+  
+}
